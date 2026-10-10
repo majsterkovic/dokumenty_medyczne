@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dokumenty Medyczne — Wzory Pism (Błąd Dentysty, OC, Dokumentacja)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card-bg: rgba(30, 41, 59, 0.7);
+      --card-border: rgba(255, 255, 255, 0.1);
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+      --accent: #38bdf8;
+      --accent-hover: #0ea5e9;
+      --badge: #0284c7;
+      --btn-pdf: #ef4444;
+      --btn-docx: #2563eb;
+      --btn-md: #64748b;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      background: radial-gradient(circle at top, #1e293b 0%, #0f172a 100%);
+      color: var(--text);
+      min-height: 100vh;
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .container {
+      max-width: 960px;
+      width: 100%;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 6px 14px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      background: rgba(56, 189, 248, 0.15);
+      color: var(--accent);
+      border-radius: 9999px;
+      margin-bottom: 16px;
+      border: 1px solid rgba(56, 189, 248, 0.3);
+    }
+
+    h1 {
+      font-size: 2.3rem;
+      font-weight: 700;
+      line-height: 1.25;
+      margin-bottom: 14px;
+      background: linear-gradient(135deg, #ffffff 0%, #cbd5e1 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    p.subtitle {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      max-width: 680px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 24px;
+      margin-bottom: 40px;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      padding: 28px;
+      backdrop-filter: blur(12px);
+      transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-2px);
+      border-color: rgba(56, 189, 248, 0.4);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+    }
+
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 12px;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .card-title {
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: #ffffff;
+    }
+
+    .pill {
+      font-size: 0.75rem;
+      padding: 4px 10px;
+      border-radius: 6px;
+      background: rgba(255, 255, 255, 0.08);
+      color: #e2e8f0;
+      font-weight: 500;
+    }
+
+    .card-desc {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    .downloads {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 18px;
+      border-radius: 8px;
+      font-size: 0.88rem;
+      font-weight: 600;
+      text-decoration: none;
+      color: #ffffff;
+      transition: opacity 0.15s ease, transform 0.15s ease;
+    }
+
+    .btn:hover {
+      opacity: 0.9;
+      transform: scale(1.02);
+    }
+
+    .btn-pdf {
+      background: var(--btn-pdf);
+    }
+
+    .btn-docx {
+      background: var(--btn-docx);
+    }
+
+    .btn-md {
+      background: var(--btn-md);
+    }
+
+    .btn-outline {
+      background: transparent;
+      border: 1px solid var(--card-border);
+      color: var(--text-muted);
+    }
+
+    .btn-outline:hover {
+      color: var(--text);
+      border-color: var(--text);
+    }
+
+    .info-box {
+      background: rgba(2, 132, 199, 0.1);
+      border: 1px solid rgba(56, 189, 248, 0.25);
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 40px;
+      line-height: 1.6;
+      font-size: 0.92rem;
+      color: #bae6fd;
+    }
+
+    .info-box strong {
+      color: #ffffff;
+    }
+
+    footer {
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      padding-top: 20px;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      width: 100%;
+    }
+
+    footer a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <span class="tag">Prawa Pacjenta & Odpowiedzialność OC</span>
+      <h1>Dokumenty Medyczne — Wzory Pism</h1>
+      <p class="subtitle">Zanonimizowane wzory pism, formularze z wykropkowanymi polami do wypełnienia oraz poradnik prawny w sprawach błędów diagnostycznych (RTG) i odszkodowań z OC dentysty.</p>
+    </header>
+
+    <div class="info-box">
+      💡 <strong>Jak korzystać z dokumentów:</strong> Wszystkie formularze są zanonimizowane i posiadają wykropkowane miejsca do uzupełnienia. Wybierz format <strong>DOCX</strong> do edycji w programie Word / LibreOffice lub pobierz <strong>PDF</strong> do bezpośredniego wydruku i wypełnienia ręcznego.
+    </div>
+
+    <div class="grid">
+      <!-- Dokument 1 -->
+      <div class="card">
+        <div class="card-header">
+          <h2 class="card-title">1. Wniosek o udostępnienie dokumentacji medycznej i wskazanie polisy OC</h2>
+          <span class="pill">Etap 1 — Zabezpieczenie dowodów</span>
+        </div>
+        <p class="card-desc">Oficjalny wniosek do placówki leczniczej o bezpłatne wydanie pełnej dokumentacji medycznej (w tym nośnika z badaniami RTG/CBCT w formacie DICOM) oraz wezwanie do ujawnienia danych ubezpieczyciela OC i numeru polisy (art. 14 ust. 2 pkt 2 ustawy o działalności leczniczej).</p>
+        <div class="downloads">
+          <a class="btn btn-pdf" href="dist/wniosek-dokumentacja-papierowa.pdf" target="_blank">📄 Pobierz PDF</a>
+          <a class="btn btn-docx" href="dist/wniosek-dokumentacja-papierowa.docx">📝 Pobierz DOCX</a>
+          <a class="btn btn-outline" href="wniosek-dokumentacja-papierowa.md" target="_blank">🔍 Podgląd MD</a>
+        </div>
+      </div>
+
+      <!-- Dokument 2 -->
+      <div class="card">
+        <div class="card-header">
+          <h2 class="card-title">2. Zgłoszenie szkody z OC dentysty i wezwanie do zapłaty</h2>
+          <span class="pill">Etap 2 — Dochodzenie roszczeń</span>
+        </div>
+        <p class="card-desc">Kompleksowe zgłoszenie szkody w trybie <em>actio directa</em> (art. 822 § 4 KC) do ubezpieczyciela OC lub placówki. Zawiera roszczenie o wyłożenie z góry sumy leczenia (art. 444 § 1 zd. 2 KC), zadośćuczynienie za ból i obrzęk (art. 445 § 1 KC) oraz pełną chronologię zdarzeń.</p>
+        <div class="downloads">
+          <a class="btn btn-pdf" href="dist/wniosek-odszkodowanie-OC-dentysty.pdf" target="_blank">📄 Pobierz PDF</a>
+          <a class="btn btn-docx" href="dist/wniosek-odszkodowanie-OC-dentysty.docx">📝 Pobierz DOCX</a>
+          <a class="btn btn-outline" href="wniosek-odszkodowanie-OC-dentysty.md" target="_blank">🔍 Podgląd MD</a>
+        </div>
+      </div>
+
+      <!-- Dokument 3 -->
+      <div class="card">
+        <div class="card-header">
+          <h2 class="card-title">3. Poradnik prawno-praktyczny (Research & Procedura)</h2>
+          <span class="pill">Kompendium wiedzy</span>
+        </div>
+        <p class="card-desc">Praktyczny przewodnik wyjaśniający zasady obowiązkowego OC dentysty, minimalne sumy gwarancyjne (min. 75 000 EUR), 30-dniowy termin likwidacji szkody, 3-letni termin przedawnienia oraz alternatywne ścieżki (Rzecznik Praw Pacjenta, Rzecznik Finansowy, OROZ).</p>
+        <div class="downloads">
+          <a class="btn btn-pdf" href="dist/research-OC-dentysty.pdf" target="_blank">📄 Pobierz PDF</a>
+          <a class="btn btn-docx" href="dist/research-OC-dentysty.docx">📝 Pobierz DOCX</a>
+          <a class="btn btn-outline" href="research-OC-dentysty.md" target="_blank">🔍 Podgląd MD</a>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>Kod źródłowy i automatyzacja dostępne na <a href="https://github.com/majsterkovic/dokumenty_medyczne" target="_blank">GitHub: majsterkovic/dokumenty_medyczne</a></p>
+      <p style="margin-top: 8px; font-size: 0.78rem; opacity: 0.8;">Materiał ma charakter informacyjny i edukacyjny, nie stanowi indywidualnej porady prawnej.</p>
+    </footer>
+  </div>
+</body>
+</html>

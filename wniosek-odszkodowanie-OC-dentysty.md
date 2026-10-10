@@ -8,7 +8,7 @@
 ### Poszkodowany / Poszkodowana:
 Imię i nazwisko: ........................................................................  
 Adres zamieszkania: ....................................................................  
-PESEL: .................................................................................  
+PESEL (lub seria i nr paszportu w przypadku braku PESEL): ..............................  
 Nr telefonu: ...........................................................................  
 Adres e-mail: ..........................................................................  
 Numer rachunku bankowego do wypłaty świadczeń:  
@@ -79,14 +79,17 @@ Działając we własnym imieniu, na podstawie art. 822 § 4 Kodeksu cywilnego (*
 
 ## III. WYKAZ ZAŁĄCZNIKÓW
 
-1. Kopia dokumentacji medycznej z placówki ubezpieczonego;
-2. Płyta CD / nośnik z zapisem badania RTG z dnia ........................ r. wraz z opisem;
-3. Zaświadczenie lekarskie / opinia lekarza weryfikującego z dnia ........................ r.;
-4. Plan leczenia naprawczego wraz z kosztorysem z dnia ........................ r.;
-5. Dokumentacja fotograficzna obrzęku twarzy;
-6. Kopie imiennych faktur i rachunków potwierdzających dotychczas poniesione koszty;
-7. Dziennik dolegliwości bólowych i przyjmowanych leków;
-8. Kopia wniosku o udostępnienie dokumentacji i wskazanie polisy OC.
+1. Kopia dokumentacji medycznej z placówki ubezpieczonego (karty wizyt, historia leczenia);
+2. Płyta CD / pendrive / nośnik z cyfrowym zapisem badania RTG / CBCT z dnia ........................ r. wraz z opisem radiologicznym;
+3. Zaświadczenie lekarskie / pisemna opinia lekarza weryfikującego błąd z dnia ........................ r.;
+4. Plan leczenia naprawczego wraz ze szczegółowym kosztorysem procedur z dnia ........................ r.;
+5. Dokumentacja fotograficzna obrzęku twarzy i widocznych powikłań (z oznaczeniem dat);
+6. Kopie imiennych faktur i rachunków potwierdzających dotychczas poniesione koszty leczenia, badań, leków i dojazdów;
+7. Dziennik dolegliwości bólowych, gorączki, bezsenności i wykaz przyjmowanych leków;
+8. Zaświadczenia o niezdolności do pracy (ZUS ZLA / L4) wynikające z powikłań (opcjonalnie);
+9. Kopia uprzednio złożonego wniosku o udostępnienie dokumentacji i wskazanie polisy OC wraz z potwierdzeniem odbioru.
+
+*Uwaga: W przypadku trudności z samodzielnym oszacowaniem roszczeń lub w razie sporu co do winy ubezpieczonego, poszkodowany może skorzystać z bezpłatnej pomocy Miejskiego/Powiatowego Rzecznika Konsumentów, Rzecznika Praw Pacjenta lub profesjonalnego pełnomocnika (adwokata / radcy prawnego).*
 
 ---
 
