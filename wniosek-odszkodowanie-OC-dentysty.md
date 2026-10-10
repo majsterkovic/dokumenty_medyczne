@@ -38,7 +38,7 @@ Numer szkody (jeśli został już nadany): .....................................
 
 Działając we własnym imieniu, na podstawie art. 822 § 4 Kodeksu cywilnego (*actio directa* — bezpośrednie roszczenie przeciwko ubezpieczycielowi sprawcy) oraz przepisów ustawy z dnia 22 maja 2003 r. o ubezpieczeniach obowiązkowych, Ubezpieczeniowym Funduszu Gwarancyjnym i Polskim Biurze Ubezpieczycieli Komunikacyjnych:
 
-1. **ZGŁASZAM SZKODĘ NA OSOBIE ORAZ SZKODĘ MAJĄTKOWĄ** doznaną w wyniku błędu diagnostyczno-terapeutycznego (zaniechania prawidłowej diagnozy i leczenia na podstawie badania RTG), popełnionego w trakcie udzielania świadczeń zdrowotnych przez ubezpieczonego;
+1. **ZGŁASZAM SZKODĘ NA OSOBIE ORAZ SZKODĘ MAJĄTKOWĄ** doznaną w wyniku błędu diagnostyczno-terapeutycznego (zaniechania prawidłowej diagnozy i leczenia na podstawie badania obrazowego — tomografii stożkowej CBCT *(Cone Beam Computed Tomography, trójwymiarowe badanie 3D)*), popełnionego w trakcie udzielania świadczeń zdrowotnych przez ubezpieczonego;
 2. **WZYWAM DO ZAPŁATY** w terminie 30 dni od dnia otrzymania niniejszego zgłoszenia (art. 14 ust. 1 ustawy o ubezpieczeniach obowiązkowych) następujących kwot na wyżej wskazany rachunek bankowy:
    - **a) kwoty ........................ zł** *(słownie: ........................................)* tytułem **odszkodowania — wyłożenia z góry sumy potrzebnej na koszty leczenia naprawczego** (art. 444 § 1 zd. 2 Kodeksu cywilnego) zgodnie z załączonym planem leczenia i kosztorysem z dnia ........................ r., z jednoczesnym zastrzeżeniem prawa do żądania zwrotu dalszych kosztów leczenia powikłań;
    - **b) kwoty ........................ zł** *(słownie: ........................................)* tytułem **zadośćuczynienia pieniężnego za doznaną krzywdę, ból i cierpienie fizyczne oraz psychiczne** (art. 445 § 1 w zw. z art. 444 § 1 Kodeksu cywilnego);
@@ -51,15 +51,15 @@ Działając we własnym imieniu, na podstawie art. 822 § 4 Kodeksu cywilnego (*
 ## I. STAN FAKTYCZNY I CHRONOLOGIA ZDARZEŃ
 
 1. **Wizyta pierwotna (dzień ........................ r.):**  
-   Poszkodowany/a odbył/a wizytę stomatologiczną w placówce ubezpieczonego. W trakcie wizyty wykonano badanie rentgenowskie: ........................................................................ *(pantomograficzne / punktowe zęba nr .........)*. Lekarz badający oświadczył, że badanie nie wykazuje zmian chorobowych i brak jest wskazań do podjęcia leczenia stomatologicznego. Nie wdrożono leczenia ani dalszej diagnostyki.
+   Poszkodowany/a odbył/a wizytę stomatologiczną w placówce ubezpieczonego. W trakcie wizyty wykonano badanie obrazowe — tomografię stożkową CBCT: ........................................................................ *(obszar ......... / ząb nr .........)*. Lekarz badający oświadczył, że badanie nie wykazuje zmian chorobowych i brak jest wskazań do podjęcia leczenia stomatologicznego. Nie wdrożono leczenia ani dalszej diagnostyki.
 
 2. **Wystąpienie powikłań (okres ........................................ r.):**  
    W kolejnych tygodniach nastąpił dynamiczny rozwój nierozpoznanego stanu zapalnego. U Poszkodowanego/ej wystąpiły ostre objawy chorobowe: narastający ból o dużym natężeniu, rozległy obrzęk tkanek miękkich twarzy po stronie ........................, zaburzenia snu, trudności w przyjmowaniu pokarmów oraz ogólne rozbicie. Objawy te udokumentowano fotograficznie oraz potwierdzono w wywiadzie lekarskim.
 
 3. **Wizyta weryfikacyjna i ujawnienie błędu (dzień ........................ r.):**  
    Z uwagi na ostry stan zapalny Poszkodowany/a zgłosił/a się na pilną konsultację stomatologiczną do innego lekarza dentysty: ........................................................................  
-   Lekarz ten, po naocznym zbadaniu stanu klinicznego oraz wnikliwej analizie pierwotnego zdjęcia RTG z dnia ........................ r., jednoznacznie stwierdził, że:
-   - Zmiany chorobowe w postaci: ........................................................................ były **wyraźnie widoczne już na pierwotnym zdjęciu RTG**;
+   Lekarz ten, po badaniu fizykalnym (naocznym zbadaniu stanu klinicznego), wykonaniu własnej tomografii CBCT oraz wnikliwej analizie pierwotnego badania CBCT z dnia ........................ r., jednoznacznie stwierdził, że:
+    - Zmiany chorobowe w postaci: ........................................................................ były **wyraźnie widoczne już w pierwotnym badaniu CBCT**;
    - Prawidłowa ocena radiologiczna nakazywała natychmiastowe wdrożenie leczenia już w dacie pierwszego badania;
    - Zaniechanie leczenia doprowadziło bezpośrednio do rozwoju ostrego stanu zapalnego, obrzęku i konieczności wdrożenia skomplikowanego, inwazyjnego leczenia naprawczego: ........................................................................;
    - Koszt niezbędnego leczenia naprawczego został oszacowany w załączonym planie leczenia na kwotę: ........................ zł.
@@ -69,7 +69,7 @@ Działając we własnym imieniu, na podstawie art. 822 § 4 Kodeksu cywilnego (*
 ## II. PODSTAWA PRAWNA ODPOWIEDZIALNOŚCI
 
 1. **Art. 415 Kodeksu cywilnego (wina sprawcy):**  
-   Zaniechanie właściwej analizy badania RTG i przeoczenie widocznych zmian chorobowych stanowi naruszenie zasad aktualnej wiedzy medycznej oraz niedochowanie należytej staranności zawodowej wymaganej od lekarza dentysty (art. 355 § 2 KC w zw. z art. 8 ustawy o zawodach lekarza i lekarza dentysty).
+   Zaniechanie właściwej analizy badania CBCT i przeoczenie widocznych zmian chorobowych stanowi naruszenie zasad aktualnej wiedzy medycznej oraz niedochowanie należytej staranności zawodowej wymaganej od lekarza dentysty (art. 355 § 2 KC w zw. z art. 8 ustawy o zawodach lekarza i lekarza dentysty).
 2. **Art. 430 Kodeksu cywilnego (odpowiedzialność zwierzchnika):**  
    W przypadku podmiotu leczniczego placówka odpowiada za szkodę wyrządzoną z winy personelu medycznego wykonującego czynności powierzone w ramach jej działalności.
 3. **Art. 444 § 1 i art. 445 § 1 Kodeksu cywilnego:**  
@@ -84,7 +84,7 @@ Działając we własnym imieniu, na podstawie art. 822 § 4 Kodeksu cywilnego (*
 ## III. WYKAZ ZAŁĄCZNIKÓW
 
 1. Kopia dokumentacji medycznej z placówki ubezpieczonego (karty wizyt, historia leczenia);
-2. Płyta CD / pendrive / nośnik z cyfrowym zapisem badania RTG / CBCT z dnia ........................ r. wraz z opisem radiologicznym;
+2. Płyta CD / pendrive / nośnik z cyfrowym zapisem badania CBCT z dnia ........................ r. (format DICOM) wraz z opisem radiologicznym;
 3. Zaświadczenie lekarskie / pisemna opinia lekarza weryfikującego błąd z dnia ........................ r.;
 4. Plan leczenia naprawczego wraz ze szczegółowym kosztorysem procedur z dnia ........................ r.;
 5. Dokumentacja fotograficzna obrzęku twarzy i widocznych powikłań (z oznaczeniem dat);
