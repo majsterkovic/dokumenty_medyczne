@@ -2,6 +2,7 @@
 import os
 import re
 import subprocess
+import tempfile
 import markdown
 
 SOURCE_FILES = [
@@ -95,14 +96,15 @@ def md_to_html(md_path, title):
     return html
 
 def main():
-    build_dir = "/home/mariusz/Desktop/dentysta/dist"
+    repo_dir = os.path.dirname(os.path.abspath(__file__))
+    build_dir = os.path.join(repo_dir, "dist")
     os.makedirs(build_dir, exist_ok=True)
-    temp_dir = "/tmp/dentysta_build"
+    temp_dir = os.path.join(tempfile.gettempdir(), "dentysta_build")
     os.makedirs(temp_dir, exist_ok=True)
 
     for md_filename, title in SOURCE_FILES:
         base_name = os.path.splitext(md_filename)[0]
-        md_file = os.path.join("/home/mariusz/Desktop/dentysta", md_filename)
+        md_file = os.path.join(repo_dir, md_filename)
         html_file = os.path.join(temp_dir, f"{base_name}.html")
         
         print(f"Generating HTML for {md_filename}...")
