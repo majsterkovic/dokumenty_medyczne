@@ -40,16 +40,25 @@ h2 {
     margin-bottom: 8px;
     border-bottom: 1px solid #ccc;
     padding-bottom: 4px;
+    text-align: left;
 }
 h3 {
     font-size: 11pt;
     margin-top: 14px;
     margin-bottom: 6px;
+    text-align: left;
 }
 p {
     margin-top: 6px;
     margin-bottom: 6px;
     text-align: justify;
+    text-align-last: left;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+}
+li {
+    margin-bottom: 4px;
+    text-align: left;
 }
 hr {
     border: 0;

@@ -162,6 +162,10 @@
       background: var(--btn-pdf);
     }
 
+    .btn-preview {
+      background: #059669;
+    }
+
     .btn-docx {
       background: var(--btn-docx);
     }
@@ -213,6 +217,100 @@
     footer a:hover {
       text-decoration: underline;
     }
+
+    /* Podgląd PDF w modalu */
+    .modal-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(2, 6, 23, 0.75);
+      backdrop-filter: blur(4px);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      z-index: 1000;
+    }
+
+    .modal-overlay.open {
+      display: flex;
+    }
+
+    .modal {
+      background: #0f172a;
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      width: min(1000px, 100%);
+      max-height: 90vh;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      box-shadow: 0 24px 60px rgba(0, 0, 0, 0.5);
+    }
+
+    .modal-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 14px 18px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      flex-wrap: wrap;
+    }
+
+    .modal-title {
+      font-weight: 600;
+      font-size: 0.95rem;
+      color: #fff;
+    }
+
+    .modal-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .btn-sm {
+      padding: 8px 14px;
+      font-size: 0.8rem;
+    }
+
+    .modal-close {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid var(--card-border);
+      color: var(--text);
+      border-radius: 8px;
+      width: 36px;
+      height: 36px;
+      font-size: 1rem;
+      cursor: pointer;
+      line-height: 1;
+    }
+
+    .modal-close:hover {
+      background: rgba(255, 255, 255, 0.15);
+    }
+
+    .modal-body {
+      background: #1e293b;
+      height: min(72vh, 700px);
+    }
+
+    .modal-body iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+      background: #fff;
+    }
+
+    body.modal-open {
+      overflow: hidden;
+    }
+
+    @media (max-width: 640px) {
+      .modal-body {
+        height: 70vh;
+      }
+    }
   </style>
 </head>
 <body>
@@ -237,6 +335,7 @@
         <p class="card-desc">Oficjalny wniosek do placówki leczniczej o bezpłatne wydanie pełnej dokumentacji medycznej (w tym nośnika z badaniami RTG/CBCT w formacie DICOM) oraz wezwanie do ujawnienia danych ubezpieczyciela OC i numeru polisy (art. 14 ust. 2 pkt 2 ustawy o działalności leczniczej).</p>
         <div class="downloads">
           <a class="btn btn-pdf" href="dist/wniosek-dokumentacja-papierowa.pdf" target="_blank">📄 Pobierz PDF</a>
+          <button class="btn btn-preview" type="button" onclick="openPreview('dist/wniosek-dokumentacja-papierowa.pdf', '1. Wniosek o dokumentację medyczną i polisę OC')">👁 Podgląd</button>
           <a class="btn btn-docx" href="dist/wniosek-dokumentacja-papierowa.docx">📝 Pobierz DOCX</a>
           <a class="btn btn-outline" href="wniosek-dokumentacja-papierowa.md" target="_blank">🔍 Podgląd MD</a>
         </div>
@@ -251,6 +350,7 @@
         <p class="card-desc">Kompleksowe zgłoszenie szkody w trybie <em>actio directa</em> (art. 822 § 4 KC) do ubezpieczyciela OC lub placówki. Zawiera roszczenie o wyłożenie z góry sumy leczenia (art. 444 § 1 zd. 2 KC), zadośćuczynienie za ból i obrzęk (art. 445 § 1 KC) oraz pełną chronologię zdarzeń.</p>
         <div class="downloads">
           <a class="btn btn-pdf" href="dist/wniosek-odszkodowanie-OC-dentysty.pdf" target="_blank">📄 Pobierz PDF</a>
+          <button class="btn btn-preview" type="button" onclick="openPreview('dist/wniosek-odszkodowanie-OC-dentysty.pdf', '2. Zgłoszenie szkody z OC dentysty')">👁 Podgląd</button>
           <a class="btn btn-docx" href="dist/wniosek-odszkodowanie-OC-dentysty.docx">📝 Pobierz DOCX</a>
           <a class="btn btn-outline" href="wniosek-odszkodowanie-OC-dentysty.md" target="_blank">🔍 Podgląd MD</a>
         </div>
@@ -265,6 +365,7 @@
         <p class="card-desc">Praktyczny przewodnik wyjaśniający zasady obowiązkowego OC dentysty, minimalne sumy gwarancyjne (min. 75 000 EUR), 30-dniowy termin likwidacji szkody, 3-letni termin przedawnienia oraz alternatywne ścieżki (Rzecznik Praw Pacjenta, Rzecznik Finansowy, OROZ).</p>
         <div class="downloads">
           <a class="btn btn-pdf" href="dist/research-OC-dentysty.pdf" target="_blank">📄 Pobierz PDF</a>
+          <button class="btn btn-preview" type="button" onclick="openPreview('dist/research-OC-dentysty.pdf', '3. Poradnik prawno-praktyczny')">👁 Podgląd</button>
           <a class="btn btn-docx" href="dist/research-OC-dentysty.docx">📝 Pobierz DOCX</a>
           <a class="btn btn-outline" href="research-OC-dentysty.md" target="_blank">🔍 Podgląd MD</a>
         </div>
@@ -276,5 +377,47 @@
       <p style="margin-top: 8px; font-size: 0.78rem; opacity: 0.8;">Materiał ma charakter informacyjny i edukacyjny, nie stanowi indywidualnej porady prawnej.</p>
     </footer>
   </div>
+
+  <div class="modal-overlay" id="previewModal" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Podgląd dokumentu">
+    <div class="modal">
+      <div class="modal-header">
+        <span class="modal-title" id="previewTitle">Podgląd</span>
+        <div class="modal-actions">
+          <a class="btn btn-pdf btn-sm" id="previewOpenNew" href="#" target="_blank" rel="noopener">↗ Otwórz w nowej karcie</a>
+          <button class="modal-close" type="button" onclick="closePreview()" aria-label="Zamknij podgląd">✕</button>
+        </div>
+      </div>
+      <div class="modal-body">
+        <iframe id="previewFrame" title="Podgląd PDF" src=""></iframe>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function openPreview(src, title) {
+      var modal = document.getElementById('previewModal');
+      var frame = document.getElementById('previewFrame');
+      document.getElementById('previewTitle').textContent = title || 'Podgląd';
+      document.getElementById('previewOpenNew').href = src;
+      frame.src = src;
+      modal.classList.add('open');
+      modal.setAttribute('aria-hidden', 'false');
+      document.body.classList.add('modal-open');
+    }
+    function closePreview() {
+      var modal = document.getElementById('previewModal');
+      var frame = document.getElementById('previewFrame');
+      modal.classList.remove('open');
+      modal.setAttribute('aria-hidden', 'true');
+      document.body.classList.remove('modal-open');
+      frame.src = '';
+    }
+    document.getElementById('previewModal').addEventListener('click', function (e) {
+      if (e.target === this) closePreview();
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') closePreview();
+    });
+  </script>
 </body>
 </html>
