@@ -47,7 +47,7 @@ Na podstawie przepisów ustawy o prawach pacjenta wnoszę o realizację niniejsz
 
 ### WNIOSEK O WSKAZANIE DANYCH UBEZPIECZYCIELA OC
 
-Jednocześnie, na podstawie **art. 14 ust. 2 pkt 2 ustawy z dnia 15 kwietnia 2011 r. o działalności leczniczej** (Dz.U. z 2023 r. poz. 991 ze zm.), wnoszę o podanie w terminie 7 dni:
+Jednocześnie, na podstawie **art. 14 ust. 2 pkt 2 ustawy z dnia 15 kwietnia 2011 r. o działalności leczniczej** (Dz.U. z 2023 r. poz. 991 ze zm.), wnoszę o podanie bez zbędnej zwłoki, nie później niż w terminie 7 dni od dnia otrzymania niniejszego wniosku *(ustawa nie wyznacza terminu ustawowego — termin 7-dniowy wyznaczam jako rozsądny)*:
 
 1. Dokładnej nazwy i adresu zakładu ubezpieczeń, w którym podmiot leczniczy / lekarz prowadzący posiadał zawartą umowę obowiązkowego ubezpieczenia odpowiedzialności cywilnej (OC) w dacie ........................ r. (okres udzielania świadczeń);
 2. Serii i numeru polisy ubezpieczeniowej OC;

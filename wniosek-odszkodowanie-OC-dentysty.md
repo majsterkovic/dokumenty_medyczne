@@ -16,7 +16,9 @@ Numer rachunku bankowego do wypłaty świadczeń:
 
 ---
 
-### Adresat:
+### Adresat (proszę wybrać jeden wariant i drugi skreślić):
+**Wariant A (zalecany)** — Zakład Ubezpieczeń / Towarzystwo Ubezpieczeń (Departament Likwidacji Szkód), w którym sprawca posiadał polisę OC — podstawa: art. 822 § 4 KC (*actio directa*).  
+**Wariant B** — Podmiot leczniczy / lekarz dentysta (sprawca szkody) — gdy dane ubezpieczyciela nie są jeszcze znane albo roszczenie kierowane jest równolegle do sprawcy.
 ........................................................................................  
 *(Nazwa Zakładu Ubezpieczeń S.A. / Towarzystwa Ubezpieczeń lub Podmiotu Leczniczego)*  
 ........................................................................................  
@@ -41,6 +43,8 @@ Działając we własnym imieniu, na podstawie art. 822 § 4 Kodeksu cywilnego (*
    - **a) kwoty ........................ zł** *(słownie: ........................................)* tytułem **odszkodowania — wyłożenia z góry sumy potrzebnej na koszty leczenia naprawczego** (art. 444 § 1 zd. 2 Kodeksu cywilnego) zgodnie z załączonym planem leczenia i kosztorysem z dnia ........................ r., z jednoczesnym zastrzeżeniem prawa do żądania zwrotu dalszych kosztów leczenia powikłań;
    - **b) kwoty ........................ zł** *(słownie: ........................................)* tytułem **zadośćuczynienia pieniężnego za doznaną krzywdę, ból i cierpienie fizyczne oraz psychiczne** (art. 445 § 1 w zw. z art. 444 § 1 Kodeksu cywilnego);
    - **c) kwoty ........................ zł** *(słownie: ........................................)* tytułem **odszkodowania za poniesione dotychczas koszty leczenia, badań diagnostycznych, leków i dojazdów** (art. 444 § 1 zd. 1 Kodeksu cywilnego) — zgodnie z załączonymi rachunkami i fakturami.
+
+*Niniejsze zgłoszenie roszczenia (zdarzenia) przerywa bieg przedawnienia roszczenia o świadczenie do ubezpieczyciela (art. 819 § 4 KC). Bieg przedawnienia rozpoczyna się na nowo od dnia, w którym otrzymam pisemne oświadczenie ubezpieczyciela o przyznaniu lub odmowie świadczenia.*
 
 ---
 
@@ -86,7 +90,7 @@ Działając we własnym imieniu, na podstawie art. 822 § 4 Kodeksu cywilnego (*
 5. Dokumentacja fotograficzna obrzęku twarzy i widocznych powikłań (z oznaczeniem dat);
 6. Kopie imiennych faktur i rachunków potwierdzających dotychczas poniesione koszty leczenia, badań, leków i dojazdów;
 7. Dziennik dolegliwości bólowych, gorączki, bezsenności i wykaz przyjmowanych leków;
-8. Zaświadczenia o niezdolności do pracy (ZUS ZLA / L4) wynikające z powikłań (opcjonalnie);
+8. Zaświadczenia o czasowej niezdolności do pracy (zaświadczenie lekarskie ZUS ZLA, tzw. L4) wynikające z powikłań (opcjonalnie);
 9. Kopia uprzednio złożonego wniosku o udostępnienie dokumentacji i wskazanie polisy OC wraz z potwierdzeniem odbioru.
 
 *Uwaga: W przypadku trudności z samodzielnym oszacowaniem roszczeń lub w razie sporu co do winy ubezpieczonego, poszkodowany może skorzystać z bezpłatnej pomocy Miejskiego/Powiatowego Rzecznika Konsumentów, Rzecznika Praw Pacjenta lub profesjonalnego pełnomocnika (adwokata / radcy prawnego).*
