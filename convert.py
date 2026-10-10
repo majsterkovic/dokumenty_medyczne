@@ -52,7 +52,6 @@ p {
     margin-top: 6px;
     margin-bottom: 6px;
     text-align: justify;
-    text-align-last: left;
     hyphens: auto;
     -webkit-hyphens: auto;
 }
