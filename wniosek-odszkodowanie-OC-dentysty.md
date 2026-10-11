@@ -50,19 +50,25 @@ Działając we własnym imieniu, na podstawie art. 822 § 4 Kodeksu cywilnego (*
 
 ## I. STAN FAKTYCZNY I CHRONOLOGIA ZDARZEŃ
 
-1. **Wizyta pierwotna (dzień ........................ r.):**  
-   Poszkodowany/a odbył/a wizytę stomatologiczną w placówce ubezpieczonego. W trakcie wizyty wykonano badanie obrazowe — tomografię stożkową CBCT: ........................................................................ *(obszar ......... / ząb nr .........)*. Lekarz badający oświadczył, że badanie nie wykazuje zmian chorobowych i brak jest wskazań do podjęcia leczenia stomatologicznego. Nie wdrożono leczenia ani dalszej diagnostyki.
+0. **Historia wcześniejszego leczenia (wypełnić w wariancie nawrotu / kontroli po zabiegu; w wariancie pierwotnego przeoczenia pominąć):**
+   Wcześniej w placówce ubezpieczonego wykonano: ........................................................................ *(np. resekcja wierzchołków korzeni zębów nr ......... + wyłuszczenie torbieli w dniu ........................ r.)*. Kontrole po zabiegu (m.in. CBCT z dnia ........................ r.) wykazywały obraz prawidłowy / prawidłowe gojenie, bez wskazań do leczenia.
 
-2. **Wystąpienie powikłań (okres ........................................ r.):**  
+1. **Wizyta sporna — data zarzutu (dzień ........................ r.):**
+   Poszkodowany/a odbył/a wizytę stomatologiczną w placówce ubezpieczonego. W trakcie wizyty wykonano badanie obrazowe — tomografię stożkową CBCT: ........................................................................ *(obszar ......... / ząb nr .........)*. Lekarz badający oświadczył, że badanie nie wykazuje zmian chorobowych i brak jest wskazań do podjęcia leczenia stomatologicznego. Nie wdrożono leczenia ani dalszej diagnostyki. Zalecenie: kontrola za ........................ .
+   *W wariancie nawrotu jest to kontrola po wcześniejszym skutecznym leczeniu (pkt 0), a zarzut dotyczy przeoczenia nawrotu, nie pierwotnego rozpoznania.*
+
+2. **Wystąpienie powikłań (okres ........................................ r.):**
    W kolejnych tygodniach nastąpił dynamiczny rozwój nierozpoznanego stanu zapalnego. U Poszkodowanego/ej wystąpiły ostre objawy chorobowe: narastający ból o dużym natężeniu, rozległy obrzęk tkanek miękkich twarzy po stronie ........................, zaburzenia snu, trudności w przyjmowaniu pokarmów oraz ogólne rozbicie. Objawy te udokumentowano fotograficznie oraz potwierdzono w wywiadzie lekarskim.
+   *Jeżeli między sporną kontrolą a weryfikacją wystąpiła przerwa w zgłaszaniu się na kontrole (np. objawy w miesiącu ........................, brak wizyty), opisać ją zgodnie z prawdą w jednym zdaniu — ubezpieczyciel bada przyczynienie (art. 362 KC). Nie pomijać tego faktu; osią roszczenia pozostaje sporna kontrola z pkt 1.*
 
-3. **Wizyta weryfikacyjna i ujawnienie błędu (dzień ........................ r.):**  
-   Z uwagi na ostry stan zapalny Poszkodowany/a zgłosił/a się na pilną konsultację stomatologiczną do innego lekarza dentysty: ........................................................................  
-   Lekarz ten, po badaniu fizykalnym (naocznym zbadaniu stanu klinicznego), wykonaniu własnej tomografii CBCT oraz wnikliwej analizie pierwotnego badania CBCT z dnia ........................ r., jednoznacznie stwierdził, że:
-    - Zmiany chorobowe w postaci: ........................................................................ były **wyraźnie widoczne już w pierwotnym badaniu CBCT**;
-   - Prawidłowa ocena radiologiczna nakazywała natychmiastowe wdrożenie leczenia już w dacie pierwszego badania;
-   - Zaniechanie leczenia doprowadziło bezpośrednio do rozwoju ostrego stanu zapalnego, obrzęku i konieczności wdrożenia skomplikowanego, inwazyjnego leczenia naprawczego: ........................................................................;
+3. **Wizyta weryfikacyjna i ujawnienie błędu (dzień ........................ r.):**
+   Z uwagi na ostry stan zapalny Poszkodowany/a zgłosił/a się na pilną konsultację stomatologiczną do innego lekarza dentysty: ........
+   Lekarz ten, po badaniu fizykalnym (naocznym zbadaniu stanu klinicznego), wykonaniu własnej tomografii CBCT oraz wnikliwej analizie spornego badania CBCT z dnia ........................ r., jednoznacznie stwierdził, że:
+    - Zmiany chorobowe w postaci: ........................................................................ były **wyraźnie widoczne już w spornym badaniu CBCT**;
+   - Prawidłowa ocena radiologiczna nakazywała natychmiastowe wdrożenie leczenia już w dacie spornego badania;
+   - Zaniechanie leczenia doprowadziło bezpośrednio do rozwoju ostrego stanu zapalnego, obrzęku / ropnia i konieczności wdrożenia skomplikowanego, inwazyjnego leczenia naprawczego: ........................................................................;
    - Koszt niezbędnego leczenia naprawczego został oszacowany w załączonym planie leczenia na kwotę: ........................ zł.
+   *Dowód kluczowy w wariancie nawrotu: pisemna opinia lekarza weryfikującego porównująca DICOM CBCT ze spornej kontroli z własnym CBCT (dwa badania, daty, opis różnic).*
 
 ---
 

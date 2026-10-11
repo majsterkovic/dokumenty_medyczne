@@ -5,8 +5,9 @@
 
 ## 1. Wstęp i typowy schemat sprawy
 
-- **Zdarzenie pierwotne:** Wykonanie tomografii stożkowej CBCT *(Cone Beam Computed Tomography — trójwymiarowe badanie obrazowe 3D, stosowane m.in. w stomatologii, chirurgii szczękowo-twarzowej, ortodoncji i implantologii)* u pierwszego dentysty — lekarz stwierdza brak zmian chorobowych i brak konieczności leczenia.
-- **Wizyta weryfikacyjna / kontrolna:** Kolejny lekarz dentysta najpierw wykonuje badanie fizykalne, a następnie własną tomografię CBCT; po wnikliwej analizie wcześniejszego badania CBCT stwierdza, że zmiana chorobowa (np. zapalenie okołowierzchołkowe, głęboka próchnica, resorpcja) była widoczna już w pierwotnym badaniu CBCT i powinna być leczona od razu.
+- **Wariant A (pierwotne przeoczenie):** Wykonanie tomografii stożkowej CBCT *(Cone Beam Computed Tomography — trójwymiarowe badanie obrazowe 3D, stosowane m.in. w stomatologii, chirurgii szczękowo-twarzowej, ortodoncji i implantologii)* u pierwszego dentysty — lekarz stwierdza brak zmian chorobowych i brak konieczności leczenia.
+- **Wariant B (nawrót po leczeniu / sporna kontrola — np. torbiel 11/12 po resekcji z 2021 r.):** Wcześniejsze skuteczne leczenie (resekcja + wyłuszczenie) i prawidłowe kontrole (np. CBCT z 2023 r.). Sporna kontrola CBCT (np. 04.08.2026) z ustnym „wszystko dobrze, kontrola za rok", bez wdrożenia leczenia. Krótko potem (np. 25.09.2026, ok. 7 tygodni) drugi lekarz stwierdza ropień i nawrót na własnym CBCT. Osią roszczenia jest sporna kontrola, nie leczenie pierwotne.
+- **Wizyta weryfikacyjna / kontrolna:** Kolejny lekarz dentysta najpierw wykonuje badanie fizykalne, a następnie własną tomografię CBCT; po wnikliwej analizie wcześniejszego (spornego) badania CBCT stwierdza, że zmiana chorobowa (np. zapalenie okołowierzchołkowe, głęboka próchnica, resorpcja, nawrót torbieli) była widoczna już w spornym badaniu CBCT i powinna być leczona od razu. Dowód kluczowy: pisemne porównanie DICOM obu badań CBCT.
 - **Skutek zaniechania:** Rozwój stanu zapalnego, obrzęk twarzy, silne dolegliwości bólowe, konieczność inwazyjnego leczenia (endodoncja mikroskopowa, zabieg chirurgiczny, powikłania) i wysokie koszty leczenia naprawczego.
 - **Zasada odpowiedzialności:** Prawidłowe odczytanie CBCT i wdrożenie leczenia w terminie pierwotnym zapobiegłoby rozwojowi powikłań, bólowi i znacząco obniżyłoby koszty. Zaniechanie diagnostyczno-terapeutyczne stanowi błąd w sztuce medycznej.
 
@@ -23,7 +24,9 @@
 - **Czego można żądać:**
   - **Odszkodowanie (art. 444 § 1 KC):** Pokrycie wszelkich kosztów wynikłych z uszkodzenia ciała lub rozstroju zdrowia (leczenie naprawcze, zabiegi, leki, dojazdy, badania diagnostyczne, konsultacje). Jeżeli leczenie jest planowane, pacjent ma prawo żądać **wyłożenia z góry sumy potrzebnej na koszty leczenia** (art. 444 § 1 zd. 2 KC) na podstawie kosztorysu/planu leczenia.
   - **Zadośćuczynienie pieniężne za doznaną krzywdę (art. 445 § 1 w zw. z art. 444 KC):** Jednorazowa rekompensata za cierpienia fizyczne i psychiczne (ból, obrzęk i zniekształcenie twarzy, stres, nieprzespane noce, lęk przed zabiegami, absencja w pracy).
-- **Przedawnienie:** Roszczenia o naprawienie szkody na osobie wyrządzonej czynem niedozwolonym przedawniają się z upływem **3 lat od dnia, w którym poszkodowany dowiedział się albo przy zachowaniu należytej staranności mógł się dowiedzieć o szkodzie i o osobie obowiązanej do jej naprawienia** (art. 442¹ § 1 i § 3 KC). Momentem powzięcia wiedzy jest zazwyczaj data konsultacji weryfikacyjnej, a nie pierwotne błędne badanie. Zgodnie z art. 819 § 4 KC zgłoszenie ubezpieczycielowi roszczenia (lub zdarzenia) przerywa bieg przedawnienia roszczenia o świadczenie do ubezpieczyciela, a bieg rozpoczyna się na nowo od dnia otrzymania pisemnego oświadczenia ubezpieczyciela o przyznaniu lub odmowie świadczenia.
+- **Przedawnienie:** Roszczenia o naprawienie szkody na osobie wyrządzonej czynem niedozwolonym przedawniają się z upływem **3 lat od dnia, w którym poszkodowany dowiedział się albo przy zachowaniu należytej staranności mógł się dowiedzieć o szkodzie i o osobie obowiązanej do jej naprawienia** (art. 442¹ § 1 i § 3 KC). Momentem powzięcia wiedzy jest zazwyczaj data konsultacji weryfikacyjnej, a nie pierwotne błędne badanie — w wariancie nawrotu liczy się data weryfikacji (np. 25.09.2026), nie data pierwotnego zabiegu (np. 2021). Zgodnie z art. 819 § 4 KC zgłoszenie ubezpieczycielowi roszczenia (lub zdarzenia) przerywa bieg przedawnienia roszczenia o świadczenie do ubezpieczyciela, a bieg rozpoczyna się na nowo od dnia otrzymania pisemnego oświadczenia ubezpieczyciela o przyznaniu lub odmowie świadczenia.
+- **Kto odpowiada (art. 430 KC):** Jeżeli lekarz na spornej kontroli (np. dr na kontroli 04.08.2026) działał jako personel placówki, odpowiada podmiot leczniczy jako zwierzchnik za winę personelu. Ustal to z karty wizyty / pieczątki.
+- **Przyczynienie (art. 362 KC):** Jeżeli między objawami a sporną kontrolą była przerwa w zgłaszaniu się (np. objaw w kwietniu, wizyta dopiero w sierpniu), ubezpieczyciel może powołać się na przyczynienie i żądać miarkowania. Nie pomijaj tego faktu w chronologii — opisz jednym zdaniem zgodnie z prawdą; osią roszczenia pozostaje sporna kontrola.
 
 ---
 
@@ -39,7 +42,7 @@
 ## 4. Procedura działania krok po kroku
 
 ### Krok 1: Zabezpieczenie dowodów (natychmiast)
-1. **Wniosek o dokumentację medyczną:** Złożyć niezwłocznie wniosek o wydanie pełnej dokumentacji papierowej oraz cyfrowych plików CBCT (format DICOM/oryginalny) do placówki, która wykonywała pierwotne badanie.
+1. **Wniosek o dokumentację medyczną:** Złożyć niezwłocznie wniosek o wydanie pełnej dokumentacji papierowej oraz cyfrowych plików CBCT (format DICOM/oryginalny) do placówki, która wykonywała sporne badanie — a w wariancie nawrotu: pełna historia (zabieg + kontrole) + sporne CBCT + wpis z dnia spornej kontroli. Osobny wniosek do gabinetu weryfikującego o jego dokumentację.
 2. **Dokumentacja fotograficzna:** Codzienne zdjęcia obrzęku twarzy, z widoczną datą, pod stałym kątem (przód i profil).
 3. **Dziennik bólu i objawów:** Notowanie dat, nasilenia bólu (skala 0–10), przyjmowanych leków przeciwbólowych/antybiotyków, objawów towarzyszących (gorączka, bezsenność, trudności w żuciu/mowie).
 4. **Zbieranie rachunków i faktur:** Zachowywanie faktur imiennych za każdą wizytę, leki, badania, dojazdy.
@@ -50,8 +53,8 @@
 ### Krok 3: Uzyskanie opinii i kosztorysu od lekarza weryfikującego
 - Kluczowym dowodem jest pisemne zaświadczenie/wpis w dokumentacji od drugiego lekarza weryfikującego, zawierające:
    - datę badania (fizykalnego i własnej tomografii CBCT),
-   - porównanie aktualnego stanu klinicznego z pierwotnym badaniem CBCT,
-   - jednoznaczne stwierdzenie, że zmiana była widoczna w pierwotnym badaniu CBCT i wymagała wdrożenia leczenia,
+   - porównanie aktualnego stanu klinicznego ze spornym badaniem CBCT (w wariancie nawrotu: DICOM sporny vs DICOM własny, z datami obu badań),
+   - jednoznaczne stwierdzenie, że zmiana była widoczna w spornym badaniu CBCT i wymagała wdrożenia leczenia,
   - plan leczenia naprawczego wraz z kosztorysem.
 
 ### Krok 4: Zgłoszenie szkody do ubezpieczyciela OC (lub wezwanie gabinetu)

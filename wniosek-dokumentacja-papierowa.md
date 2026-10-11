@@ -30,11 +30,11 @@ działając na podstawie art. 26 ust. 1, art. 27 oraz art. 28 ustawy z dnia 6 li
 
 W szczególności wnoszę o udostępnienie:
 
-1. **Historii choroby / karty leczenia pacjenta** — kompletnych wpisów ze wszystkich odbytych wizyt stomatologicznych;
-2. **Kart wizyt kontrolnych** wraz ze wszystkimi zaleceniami, wskazaniami i rekomendacjami wydanymi po każdej wizycie;
+1. **Historii choroby / karty leczenia pacjenta** — kompletnych wpisów ze wszystkich odbytych wizyt stomatologicznych, w tym wizyty spornej z dnia ........................ r. (imię i nazwisko lekarza badającego, treść wpisu, zalecenia);
+2. **Kart wizyt kontrolnych** wraz ze wszystkimi zaleceniami, wskazaniami i rekomendacjami wydanymi po każdej wizycie — w szczególności karty zabiegu (np. resekcja / wyłuszczenie torbieli) oraz kart kontroli po zabiegu;
 3. **Rozpoznań, diagnoz, planów leczenia** oraz szczegółowych opisów wszystkich wykonanych zabiegów i procedur;
-4. **Opisów i wyników badań diagnostycznych**, w szczególności opisów badań rentgenowskich (RTG pantomograficznych, punktowych, tomografii CBCT);
-5. **Cyfrowych zapisów badań obrazowych (RTG / CBCT)** wykonanych w Państwa placówce, w szczególności z dnia ........................ r., utrwalonych na informatycznym nośniku danych (płyta CD/DVD/pendrive) w formacie źródłowym (DICOM / graficznym);
+4. **Opisów i wyników badań diagnostycznych**, w szczególności opisów badań rentgenowskich (RTG pantomograficznych, punktowych, tomografii CBCT) — z podaniem daty badania oraz imienia i nazwiska lekarza opisującego;
+5. **Cyfrowych zapisów badań obrazowych (RTG / CBCT)** wykonanych w Państwa placówce, w szczególności z dnia ........................ r. (badanie sporne) oraz badań wcześniejszych/kontrolnych z dnia ........................ r. i z dnia ........................ r., utrwalonych na informatycznym nośniku danych (płyta CD/DVD/pendrive) w formacie źródłowym (DICOM / graficznym);
 6. **Wystawionych skierowań, recept** oraz odpisów zleceń lekarskich.
 
 Dokumentację tekstową proszę udostępnić w formie papierowej (kopia / wydruk), a badania obrazowe na nośniku cyfrowym. 
@@ -68,4 +68,5 @@ Z poważaniem,
 
 *Wskazówki:*  
 *1. Pismo należy złożyć w 2 egzemplarzach w rejestracji podmiotu (jeden egzemplarz z pieczątką i datą wpływu zachować dla siebie) lub nadać listem poleconym ze zwrotnym potwierdzeniem odbioru (ZPO).*  
-*2. Pierwsza kopia dokumentacji medycznej jest w pełni bezpłatna.*
+*2. Pierwsza kopia dokumentacji medycznej jest w pełni bezpłatna.*  
+*3. W sprawach o nawrót / kontrolę po zabiegu złóż DWA osobne wnioski: (a) do gabinetu spornego (sprawcy) — pełna historia + sporne CBCT/DICOM + dane polisy OC; (b) do gabinetu weryfikującego — opis ropnia/nacięcia, recepta, własne CBCT/DICOM, plan i kosztorys leczenia naprawczego oraz pisemne porównanie spornego CBCT z własnym CBCT. Wniosek (b) składasz bez żądania polisy OC.*
