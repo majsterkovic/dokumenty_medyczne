@@ -4,48 +4,372 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f5f4ef">
-  <meta name="description" content="Poradnik sprawy, checklista, dokumenty i źródła prawa dotyczące nawrotu torbieli po kontroli CBCT.">
-  <title>Plan sprawy pacjentki — dokumenty i poradnik</title>
+  <meta name="description" content="Plan sprawy krok po kroku: dokumenty do zebrania, ocena badań, zgłoszenie szkody, podstawy prawne i wersje do druku.">
+  <title>Plan sprawy — co robić krok po kroku</title>
   <style>
-    :root{--paper:#f5f4ef;--surface:#fffefa;--ink:#172a2d;--muted:#526365;--line:#d5ddda;--green:#176b58;--green-dark:#0e4b3e;--width:1040px}
-    *{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.65 Arial,Helvetica,sans-serif}a{color:var(--green-dark);text-underline-offset:.18em}a:hover{color:var(--green)}a:focus-visible{outline:3px solid #d49222;outline-offset:3px}
-    .shell{width:min(var(--width),calc(100% - 2.5rem));margin:auto}.top{padding:1.2rem 0;border-bottom:1px solid var(--line)}.brand{font-weight:700;color:var(--ink);text-decoration:none}.hero{padding:clamp(3.5rem,9vw,7rem) 0 3rem}.eyebrow{margin:0 0 .8rem;color:var(--green-dark);font-size:.78rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase}h1,h2,h3{line-height:1.18;letter-spacing:-.035em}h1{max-width:800px;margin:0;font-size:clamp(2.5rem,7vw,5.2rem)}.lead{max-width:690px;margin:1.2rem 0;color:var(--muted);font-size:1.2rem}.callout{max-width:760px;padding:1rem 1.2rem;border-left:4px solid #d9a74c;background:#fff4dc}.callout p{margin:0}.links{display:grid;grid-template-columns:1.2fr .8fr;gap:1.5rem;padding:0 0 4rem}.primary,.secondary{padding:1.5rem 1.6rem;background:var(--surface);border:1px solid var(--line)}.primary{border-top:4px solid var(--green)}.primary h2,.secondary h2{margin:.1rem 0 .6rem;font-size:1.4rem}.primary p,.secondary p{margin:.3rem 0;color:var(--muted)}.primary a.action{display:inline-block;margin-top:1rem;padding:.7rem 1rem;background:var(--green);border-radius:4px;color:white;font-weight:700;text-decoration:none}.primary a.action:hover{background:var(--green-dark)}.secondary ul{padding-left:1.15rem}.secondary li{margin:.45rem 0}.note{padding:1.2rem 0 2.4rem;border-top:1px solid var(--line);color:var(--muted)}footer{padding:1.3rem 0 2.5rem;border-top:1px solid var(--line);color:var(--muted);font-size:.9rem}@media(max-width:680px){.shell{width:calc(100% - 1.4rem)}.links{grid-template-columns:1fr}.lead{font-size:1.08rem}}
+    :root{
+      color-scheme:light;
+      --paper:#f5f4ef;--surface:#fffefa;--ink:#172a2d;--muted:#526365;--line:#d5ddda;
+      --green:#176b58;--green-dark:#0e4b3e;--green-soft:#e8efea;
+      --amber:#fff4dc;--amber-line:#d9a74c;
+      --width:1020px;
+      --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
+      --sans:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth;scroll-padding-top:5.2rem}
+    body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.7 var(--serif)}
+    a{color:var(--green-dark);text-underline-offset:.18em}
+    a:hover{color:var(--green)}
+    a:focus-visible{outline:3px solid #d49222;outline-offset:3px;border-radius:3px}
+    .shell{width:min(var(--width),calc(100% - 2.5rem));margin-inline:auto}
+    .skip{position:absolute;left:1rem;top:-5rem;padding:.7rem 1rem;background:var(--ink);color:#fff;z-index:60}.skip:focus{top:.6rem}
+
+    /* ---------- pasek górny ---------- */
+    .bar{position:sticky;top:0;z-index:50;background:rgba(245,244,239,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+    .barin{min-height:60px;display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap;padding:.4rem 0}
+    .brand{font:700 1.05rem/1 var(--serif);color:var(--ink);text-decoration:none}
+    .nav{display:flex;flex-wrap:wrap;gap:.2rem .35rem;font:600 .82rem/1 var(--sans)}
+    .nav a{padding:.4rem .55rem;border-radius:4px;color:var(--muted);text-decoration:none;white-space:nowrap}
+    .nav a:hover{background:var(--green-soft);color:var(--green-dark)}
+    .nav a[aria-current="true"]{background:var(--green);color:#fff}
+    @media(max-width:760px){.nav{width:100%;overflow-x:auto;flex-wrap:nowrap;scrollbar-width:none}.nav::-webkit-scrollbar{display:none}.brand{font-size:1rem}}
+
+    /* ---------- hero ---------- */
+    .hero{padding:clamp(2.6rem,7vw,5.2rem) 0 2.4rem}
+    .eyebrow{margin:0 0 .9rem;color:var(--green-dark);font:700 .78rem/1 var(--sans);letter-spacing:.12em;text-transform:uppercase}
+    .eyebrow.soft{margin:0 0 .35rem;color:var(--muted);font:600 .88rem/1 var(--sans);letter-spacing:.01em;text-transform:none}
+    h1,h2,h3{line-height:1.15;letter-spacing:-.015em;font-weight:700}
+    h1{max-width:820px;margin:0;font-size:clamp(2.3rem,6vw,4.4rem)}
+    .lead{max-width:700px;margin:1.3rem 0 0;color:var(--muted);font-size:clamp(1.1rem,2vw,1.28rem)}
+    .notice{margin:2rem 0 0;padding:1rem 1.2rem;border-left:4px solid var(--amber-line);background:var(--amber);max-width:820px}
+    .notice p{margin:0}
+    .status{display:flex;flex-wrap:wrap;gap:.5rem .8rem;margin:1.6rem 0 0;font:600 .85rem/1.4 var(--sans)}
+    .status span{padding:.4rem .65rem;border:1px solid var(--line);border-radius:4px;background:var(--surface);color:var(--muted)}
+
+    /* ---------- etapy ---------- */
+    .stage{padding:2.8rem 0;border-top:1px solid var(--line)}
+    .stage-head{display:flex;gap:1.1rem;align-items:flex-start}
+    .num{flex:none;display:grid;place-items:center;width:2.6rem;height:2.6rem;background:var(--green);color:#fff;font:700 1.05rem/1 var(--sans);border-radius:6px}
+    .stage h2{max-width:720px;margin:.1rem 0 .5rem;font-size:clamp(1.5rem,3.2vw,2.2rem)}
+    .stage .intro{max-width:720px;margin:0;color:var(--muted)}
+    .count{font:600 .78rem/1 var(--sans);color:var(--green-dark);letter-spacing:.08em;text-transform:uppercase}
+
+    .tasks{list-style:none;margin:1.6rem 0 0;padding:0;max-width:860px}
+    .tasks li{padding:.62rem 0;border-bottom:1px solid var(--line)}
+    .tasks li:last-child{border-bottom:0}
+    .task{display:flex;gap:.75rem;align-items:flex-start;cursor:pointer}
+    .tasks input[type="checkbox"]{flex:none;width:1.15rem;height:1.15rem;margin:.3rem 0 0;accent-color:var(--green);cursor:pointer}
+    .tasks li:has(input:checked){opacity:.5}
+    .tasks li:has(input:checked) strong{text-decoration:line-through;text-decoration-thickness:1px;text-decoration-color:var(--green)}
+    .tasks strong{color:var(--ink)}
+    .count{margin:.6rem 0 0;color:var(--muted);font:600 .82rem/1 var(--sans);font-variant-numeric:tabular-nums}
+    .stage-foot{display:flex;flex-wrap:wrap;align-items:center;gap:1rem;margin-top:1.4rem}
+    .next{font:600 .92rem/1 var(--sans)}
+    .next a{text-decoration:none;border-bottom:2px solid var(--green);padding-bottom:.15rem}
+
+    .btn{display:inline-flex;align-items:center;gap:.45rem;min-height:46px;padding:.6rem 1.05rem;border:1px solid var(--green);border-radius:5px;background:var(--green);color:#fff;font:700 .95rem/1 var(--sans);text-decoration:none;transition:background .2s ease,transform .1s ease}
+    .btn:hover{background:var(--green-dark);color:#fff}
+    .btn:active{transform:translateY(1px)}
+    .btn.alt{background:transparent;color:var(--green-dark)}
+    .btn.alt:hover{background:var(--green-soft)}
+
+    /* ---------- zwijane sekcje ---------- */
+    details.panel{border-top:1px solid var(--line);padding:0}
+    details.panel>summary{display:flex;align-items:baseline;gap:.8rem;cursor:pointer;padding:2.2rem 0;list-style:none;font-size:clamp(1.4rem,3vw,2rem);font-weight:700;letter-spacing:-.015em}
+    details.panel>summary::-webkit-details-marker{display:none}
+    details.panel>summary::after{content:"Rozwiń";margin-left:auto;font:700 .75rem/1 var(--sans);letter-spacing:.1em;text-transform:uppercase;color:var(--green-dark);border:1px solid var(--line);border-radius:4px;padding:.4rem .6rem}
+    details.panel[open]>summary::after{content:"Zwiń"}
+    details.panel>summary:hover::after{background:var(--green-soft)}
+    .panel-body{padding-bottom:2.6rem}
+
+    .timeline{list-style:none;margin:1rem 0 0;padding:0;border-left:2px solid #b6c9c2;max-width:820px}
+    .timeline li{position:relative;margin-left:.45rem;padding:0 0 1.4rem 1.4rem}
+    .timeline li:last-child{padding-bottom:0}
+    .timeline li:before{content:"";position:absolute;left:-7px;top:.5rem;width:12px;height:12px;border:2px solid var(--paper);border-radius:50%;background:var(--green)}
+    .timeline time{display:block;margin-bottom:.15rem;color:var(--green-dark);font:700 .88rem/1 var(--sans)}
+    .timeline p{margin:0}
+
+    .laws{padding-left:1.2rem;max-width:860px}
+    .laws li{margin:.7rem 0}
+    .small{color:var(--muted);font-size:.92rem}
+
+    /* ---------- dokumenty ---------- */
+    .docs{margin:1.6rem 0 0;border-top:1px solid var(--line)}
+    .doc{display:flex;flex-wrap:wrap;gap:.5rem .9rem;align-items:center;padding:.72rem 0;border-bottom:1px solid var(--line)}
+    .doc strong{flex:1 1 300px;font-weight:700}
+    .doc .desc{flex:1 1 100%;color:var(--muted);font-size:.92rem;margin:-.15rem 0 .1rem}
+    .fmt{display:inline-block;padding:.34rem .6rem;border:1px solid var(--line);border-radius:4px;background:var(--surface);color:var(--green-dark);font:700 .74rem/1 var(--sans);letter-spacing:.08em;text-transform:uppercase;text-decoration:none}
+    .fmt:hover{border-color:var(--green);background:var(--green-soft)}
+    table.reg{width:100%;border-collapse:collapse;font:15px/1.5 var(--sans);font-variant-numeric:tabular-nums;margin-top:1rem}
+    table.reg th,table.reg td{padding:.55rem .6rem;border:1px solid var(--line);text-align:left;vertical-align:top}
+    table.reg th{background:#eef2ee;font-size:.8rem;letter-spacing:.06em;text-transform:uppercase}
+    .totop{display:inline-block;margin-top:2.4rem;font:600 .85rem/1 var(--sans)}
+
+    footer{border-top:1px solid var(--line);color:var(--muted);font-size:.9rem}
+    footer .shell{padding:1.6rem 0 3rem}
+    footer p{margin:.5rem 0;max-width:760px}
+
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}}
+    @media print{
+      body{background:#fff;font-size:11.5pt}
+      .bar,.skip,.stage-foot,.totop,.next{display:none}
+      .shell{width:100%}
+      .status{display:block;margin:1.4rem 0 0}
+      .status span{display:block;margin:.2rem 0;border:0;padding:0;background:none}
+      details.panel{border-top:0}
+      details.panel>summary{display:none}
+      details.panel .panel-body{display:block!important;padding-bottom:1rem}
+      .stage,.tasks li,details.panel{break-inside:avoid}
+      a{color:inherit}
+      .fmt{border:0;padding:0;background:none}
+    }
   </style>
 </head>
 <body>
-  <header class="top"><div class="shell"><a class="brand" href="index.html">Dokumenty i plan sprawy</a></div></header>
-  <main class="shell">
-    <section class="hero">
-      <p class="eyebrow">Sprawa pacjentki · aktualizacja 13.10.2026</p>
-      <h1>Co zrobić po nawrocie torbieli po kontroli CBCT</h1>
-      <p class="lead">W jednym miejscu: uporządkowana historia, lista kolejnych kroków, wnioski o dokumentację, robocze zgłoszenie szkody i źródła prawa.</p>
-      <aside class="callout"><p><strong>Główne pytanie:</strong> czy nawrót torbieli był widoczny na CBCT z 04.08.2026 i czy późniejsze rozpoznanie spowodowało dodatkową szkodę? Tego nie przesądza samo badanie z 25.09.2026.</p></aside>
-    </section>
-    <section class="links" aria-label="Materiały główne">
-      <article class="primary">
-        <p class="eyebrow">Przewodnik</p><h2>Poradnik sprawy</h2>
-        <p>Chronologia, co trzeba potwierdzić, jak zabezpieczyć CBCT i rachunki, jak opisać podejrzenie oraz najważniejsze podstawy prawne.</p>
-        <a class="action" href="poradnik-sprawy.html">Otwórz poradnik</a>
-      </article>
-      <article class="secondary">
-        <p class="eyebrow">Do odhaczania</p><h2>Plan postępowania</h2>
-        <p>Etapowa lista zadań i rejestr wysłanych pism.</p>
-        <ul><li><a href="PLAN-POSTEPOWANIA.html">Otwórz listę zadań</a></li><li><a href="notatki-przypadek.html">Zobacz historię źródłową</a></li></ul>
-      </article>
-    </section>
-    <section class="note"><h2>Materiały sprawy</h2><p>Wybierz czytelną stronę HTML albo pobierz dokument do wydruku lub edycji. Pliki źródłowe Markdown pozostają w repozytorium.</p>
-      <ul>
-        <li><a href="PLAN-POSTEPOWANIA.html"><strong>Plan postępowania — lista zadań i rejestr korespondencji</strong></a> · <a href="dist/PLAN-POSTEPOWANIA.pdf">PDF</a> · <a href="dist/PLAN-POSTEPOWANIA.docx">DOCX</a></li>
-        <li><a href="notatki-przypadek.html">Historia pacjentki — uporządkowana chronologia i relacja źródłowa</a> · <a href="dist/notatki-przypadek.pdf">PDF</a> · <a href="dist/notatki-przypadek.docx">DOCX</a></li>
-        <li><a href="wniosek-dokumentacja-papierowa.html">Wniosek o dokumentację i dane OC</a> · <a href="dist/wniosek-dokumentacja-papierowa.pdf">PDF</a> · <a href="dist/wniosek-dokumentacja-papierowa.docx">DOCX</a></li>
-        <li><a href="wniosek-odszkodowanie-OC-dentysty-ROBOCZY.html">Robocze zgłoszenie szkody w tej sprawie</a></li>
-        <li><a href="wniosek-odszkodowanie-OC-dentysty.html">Ogólny szablon zgłoszenia szkody</a> · <a href="dist/wniosek-odszkodowanie-OC-dentysty.pdf">PDF</a> · <a href="dist/wniosek-odszkodowanie-OC-dentysty.docx">DOCX</a></li>
-        <li><a href="research-OC-dentysty.html">Poradnik prawno-praktyczny</a> · <a href="dist/research-OC-dentysty.pdf">PDF</a> · <a href="dist/research-OC-dentysty.docx">DOCX</a></li>
-        <li><a href="ustawy/README.html">Akty prawne i cytowania</a></li>
+  <a class="skip" href="#tresc">Przejdź do treści</a>
+  <div class="bar"><div class="shell barin">
+    <a class="brand" href="index.html">Plan sprawy</a>
+    <nav class="nav" aria-label="Etapy sprawy">
+      <a href="#dokumenty">Dokumenty</a>
+      <a href="#ocena">Ocena badań</a>
+      <a href="#roszczenie">Roszczenie</a>
+      <a href="#odpowiedz">Odpowiedź</a>
+      <a href="#szczegoly">Szczegóły</a>
+      <a href="#druku">Do druku</a>
+      <a href="poradnik-sprawy.html">Poradnik</a>
+    </nav>
+  </div></div>
+
+  <main id="tresc" class="shell">
+    <header class="hero">
+      <p class="eyebrow">Sprawa pacjentki · stan na 13 października 2026</p>
+      <h1>Co zrobić po nawrocie torbieli</h1>
+      <p class="lead">Wszystko w jednym miejscu, w kolejności wykonywania: dokumenty do zebrania, ocena badań, zgłoszenie szkody i wzory pism do druku. Odhaczaj zadania po wykonaniu — zapiszą się w tej przeglądarce.</p>
+      <aside class="notice"><p><strong>Najpierw leczenie.</strong> Samo rozpoznanie nawrotu 25.09.2026 nie dowodzi jeszcze, że zmiana była widoczna na CBCT z 04.08.2026. Nie odkładaj zaleconego leczenia na czas zbierania dokumentów.</p></aside>
+      <div class="status">
+        <span id="progress-all">Ukończone: <strong>0</strong> z <strong>0</strong></span>
+        <span>Etap aktualny: <strong>dokumentacja do zebrania</strong></span>
+        <span>Ostatnia aktualizacja: 13.10.2026</span>
+        <span><a href="PLAN-POSTEPOWANIA.html">Pełna checklista i rejestr korespondencji</a></span>
+      </div>
+    </header>
+
+    <section id="dokumenty" class="stage" aria-labelledby="a-title">
+      <div class="stage-head"><div class="num" aria-hidden="true">1</div>
+        <div>
+          <p class="eyebrow soft">Teraz</p>
+          <h2 id="a-title">Zbierz dokumenty i zabezpiecz dowody</h2>
+          <p class="intro">Potwierdź przebieg leczenia, wypytaj oba gabinety o dokumentację i zamknij oryginały w niezmienionej postaci.</p>
+          <p class="count">0 z 0</p>
+        </div>
+      </div>
+      <ul class="tasks">
+        <li><label class="task"><input type="checkbox"><span><strong>Potwierdź leczenie w Gabinecie nr 2.</strong> Czy ponowna resekcja i wyłuszczenie już się odbyły? Zbierz kartę zabiegu, zalecenia, recepty, rachunki i wynik histopatologiczny, jeśli materiał był badany.</span></label></li>
+        <li><label class="task"><input type="checkbox"><span><strong>Wniosek do Gabinetu nr 1</strong> o dokumentację leczenia okolicy zębów 11 i 12: zabieg z 14.01.2021, kontrole, wpis z 04.08.2026, opisy badań i pliki CBCT/DICOM z 2020/2021, 2023 i 04.08.2026.</span></label></li>
+        <li><label class="task"><input type="checkbox"><span><strong>W tym samym piśmie poproś o dane polisy OC</strong> za wizytę 04.08.2026: ubezpieczyciel, numer i okres polisy, suma gwarancyjna.</span></label></li>
+        <li><label class="task"><input type="checkbox"><span><strong>Osobny wniosek do Gabinetu nr 2</strong> o dokumentację wizyty 25.09.2026: rozpoznanie, nacięcie, antybiotyk, opis CBCT, DICOM, plan i kosztorys.</span></label></li>
+        <li><label class="task"><input type="checkbox"><span><strong>Zachowaj dowody nadania</strong> i notuj daty odpowiedzi. Pierwsze udostępnienie dokumentacji w żądanych formach jest bezpłatne; nie ma ustawowego terminu 14 dni roboczych.</span></label></li>
+        <li><label class="task"><input type="checkbox"><span><strong>Nie modyfikuj oryginałów.</strong> Zrób kopię zapasową plików DICOM, ale źródła zostaw nietknięte.</span></label></li>
+        <li><label class="task"><input type="checkbox"><span><strong>Prowadź kronikę objawów:</strong> daty, obrzęk, ból, leki, wizyty, zalecenia. Zachowaj zdjęcia z datami i rachunki.</span></label></li>
       </ul>
-      <p>Historia opiera się na relacji pacjentki. Oznaczenia wskazują informacje, które trzeba potwierdzić dokumentacją.</p>
+      <div class="stage-foot">
+        <a class="btn" href="wniosek-dokumentacja-papierowa.html">Otwórz wzór wniosku</a>
+        <span class="next">Dalej: <a href="#ocena">ocena badań</a></span>
+      </div>
+    </section>
+
+    <section id="ocena" class="stage" aria-labelledby="b-title">
+      <div class="stage-head"><div class="num" aria-hidden="true">2</div>
+        <div>
+          <p class="eyebrow soft">Po otrzymaniu dokumentacji</p>
+          <h2 id="b-title">Sprawdź, co pokazują badania</h2>
+          <p class="intro">Porównaj oba CBCT i zamów pisemną opinię specjalisty — to sedno sprawy.</p>
+          <p class="count">0 z 0</p>
+        </div>
+      </div>
+      <ul class="tasks">
+        <li><label class="task"><input type="checkbox"><span>Sprawdź w dokumentacji z Gabinetu nr 1 <strong>wpis z 04.08.2026 i opis CBCT</strong>. Zanotuj, kto wykonał badanie i kto je ocenił.</span></label></li>
+        <li><label class="task"><input type="checkbox"><span>Upewnij się, że masz <strong>CBCT z 04.08 i 25.09</strong> w formacie pozwalającym porównać obrazy; uzupełnij badaniem z 2023, jeśli jest dostępne.</span></label></li>
+        <li><label class="task"><input type="checkbox"><span>Zamów <strong>pisemną ocenę porównawczą</strong> u lekarza o właściwych kwalifikacjach. Pytania: czy zmiana była widoczna 04.08, czy wymagała wtedy leczenia i czy zwłoka mogła pogorszyć stan lub zwiększyć koszty.</span></label></li>
+        <li><label class="task"><input type="checkbox"><span>Poproś Gabinet nr 2 o <strong>plan leczenia i kosztorys na piśmie</strong> oraz dokumentację wykonanych procedur.</span></label></li>
+        <li><label class="task"><input type="checkbox"><span>Przy rozbieżnościach między opisem, wpisem a ustną informacją poproś placówkę o <strong>wyjaśnienie na piśmie</strong>. Nie poprawiaj dokumentacji medycznej samodzielnie.</span></label></li>
+      </ul>
+      <div class="stage-foot">
+        <a class="btn alt" href="notatki-przypadek.html">Zobacz historię pacjentki</a>
+        <span class="next">Dalej: <a href="#roszczenie">przygotowanie roszczenia</a></span>
+      </div>
+    </section>
+
+    <section id="roszczenie" class="stage" aria-labelledby="c-title">
+      <div class="stage-head"><div class="num" aria-hidden="true">3</div>
+        <div>
+          <p class="eyebrow soft">Po wstępnej ocenie dowodów</p>
+          <h2 id="c-title">Przygotuj i wyślij roszczenie</h2>
+          <p class="intro">Ustal adresata, uporządkuj koszty i opisz podejrzenie jako wniosek do zbadania — nie jako ustalony fakt.</p>
+          <p class="count">0 z 0</p>
+        </div>
+      </div>
+      <ul class="tasks">
+        <li><label class="task"><input type="checkbox"><span>Ustal, kto udzielał świadczenia 04.08.2026 i kto powinien być <strong>adresatem roszczenia</strong>: ubezpyczyciel, placówka, lekarz. Sama praca w gabinecie nie przesądza, kto odpowiada.</span></label></li>
+        <li><label class="task"><input type="checkbox"><span>Sporządź <strong>tabelę kosztów</strong>: data, wydatek, kwota, dowód zapłaty, związek ze sprawą. Rozdziel poniesione i planowane.</span></label></li>
+        <li><label class="task"><input type="checkbox"><span>Wskaż, które następstwa <strong>wiążą się z opóźnieniem</strong> — nie zakładaj automatycznie, że cały koszt leczenia nawrotu powstał przez wizytę z 04.08.</span></label></li>
+        <li><label class="task"><input type="checkbox"><span>Uzupełnij robocze zgłoszenie <strong>faktami potwierdzonymi dokumentami</strong>. Ocena z 04.08 była ustnym przekazem — podawaj ją tak, chyba że znajdziesz ją w karcie; kwestie sporne przedstaw jako wniosek do zbadania.</span></label></li>
+        <li><label class="task"><input type="checkbox"><span>Dołącz dokumentację, porównanie CBCT, rachunki, plan i kosztorys leczenia.</span></label></li>
+        <li><label class="task"><input type="checkbox"><span>Brak kompletnych dokumentów <strong>nie blokuje zgłoszenia</strong> — można uzupełnić materiał później. Zachowaj potwierdzenie doręczenia.</span></label></li>
+      </ul>
+      <div class="stage-foot">
+        <a class="btn" href="wniosek-odszkodowanie-OC-dentysty-ROBOCZY.html">Otwórz robocze zgłoszenie</a>
+        <span class="next">Dalej: <a href="#odpowiedz">co po odpowiedzi</a></span>
+      </div>
+    </section>
+
+    <section id="odpowiedz" class="stage" aria-labelledby="d-title">
+      <div class="stage-head"><div class="num" aria-hidden="true">4</div>
+        <div>
+          <p class="eyebrow soft">Po odpowiedzi ubezpieczyciela lub placówki</p>
+          <h2 id="d-title">Sprawdź odpowiedź i rób następny krok</h2>
+          <p class="intro">Odpowiedź to nie koniec — sprawdź, czy odnieśli się do każdego dowodu.</p>
+          <p class="count">0 z 0</p>
+        </div>
+      </div>
+      <ul class="tasks">
+        <li><label class="task"><input type="checkbox"><span>Zachowaj <strong>decyzję, uzasadnienie i korespondencję</strong> wraz z datą otrzymania.</span></label></li>
+        <li><label class="task"><input type="checkbox"><span>Sprawdź, czy odnieśli się do każdego dowodu i wypłacili <strong>część bezsporną</strong>. Termin 30 dni nie oznacza wypłaty całej żądanej kwoty.</span></label></li>
+        <li><label class="task"><input type="checkbox"><span>Przy odmowie lub sporze o przyczynowość: uzupełnij dowody i rozważ <strong>adwokata lub radcę prawnego</strong>. Rzecznik Finansowy jest właściwy po procedurze reklamacyjnej u ubezpyczyciela.</span></label></li>
+        <li><label class="task"><input type="checkbox"><span><strong>Przedawnienia</strong> nie licz z góry od daty wizyty — termin zależy od konkretnych faktów i rodzaju roszczenia.</span></label></li>
+      </ul>
+      <div class="stage-foot">
+        <a class="btn alt" href="research-OC-dentysty.html">Poradnik prawno-praktyczny</a>
+      </div>
+    </section>
+
+    <details id="szczegoly" class="panel">
+      <summary>Chronologia i podstawy prawne <span class="small" style="font-weight:400">(szczegóły sprawy)</span></summary>
+      <div class="panel-body">
+        <p class="eyebrow">Według relacji pacjentki</p>
+        <h3 style="margin:.2rem 0 .4rem;font-size:1.3rem">Historia w skrócie</h3>
+        <p class="small" style="max-width:760px">Daty i ustne informacje pochodzą z relacji pacjentki. Daty badań, opisy, zalecenia i wykonane procedury należy sprawdzić w dokumentacji. Pełna wersja: <a href="notatki-przypadek.html">historia pacjentki</a>.</p>
+        <ol class="timeline">
+          <li><time datetime="2020-12">Grudzień 2020 / styczeń 2021</time><p>Gabinet nr 1 rozpoznał torbiel w szczęce nad zębami 11 i 12. Wykonano CBCT. Dokładna data do ustalenia.</p></li>
+          <li><time datetime="2021-01-14">14 stycznia 2021</time><p>W Gabinecie nr 1 wykonano resekcję korzeni zębów 11 i 12 oraz wyłuszczenie torbieli.</p></li>
+          <li><time datetime="2023">2023</time><p>Kontrolne CBCT. Pacjentce przekazano, że wszystko dobrze się goi. Potrzebne są data, opis i pliki badania.</p></li>
+          <li><time datetime="2026-04">Kwiecień 2026</time><p>Obrzęk podniebienia i niepokój. Pacjentka nie zgłosiła się wtedy na kontrolę.</p></li>
+          <li><time datetime="2026-08-04">4 sierpnia 2026</time><p>W Gabinecie nr 1 kontrolne CBCT u dr Chwalibóg. Według relacji ustnie przekazano „bez zmian, wszystko dobrze” i zalecono kontrolę za rok. Nie wiadomo, co zapisano w karcie i kto opisał badanie.</p></li>
+          <li><time datetime="2026-09">Wrzesień 2026</time><p>Obrzęk się powiększał.</p></li>
+          <li><time datetime="2026-09-25">25 września 2026</time><p>W Gabinecie nr 2 stwierdzono duży ropień; według relacji wykonano nacięcie i zastosowano antybiotyk. Nowe CBCT miało wskazywać na nawrót torbieli. Zaplanowano ponowną resekcję — trzeba potwierdzić, czy zabieg się odbył.</p></li>
+        </ol>
+        <h3 style="margin:2rem 0 .4rem;font-size:1.3rem">Najważniejsze zasady prawne</h3>
+        <ul class="laws">
+          <li><strong>Dokumentacja:</strong> pierwsze udostępnienie w żądanym zakresie i ustawowych formach jest bezpłatne, a dokumentację udostępnia się bez zbędnej zwłoki. Nie ma ogólnego terminu 14 dni roboczych. <a href="https://eli.gov.pl/api/acts/DU/2024/581/text.html">Ustawa o prawach pacjenta, art. 23–28</a>.</li>
+          <li><strong>Dane polisy:</strong> pacjent może wnioskować o niezbędne informacje o umowie OC. Termin 7 dni we wzorze jest proponowany, nie ustawowy. <a href="https://eli.gov.pl/api/acts/DU/2026/156/text.pdf">Ustawa o działalności leczniczej, art. 14</a>.</li>
+          <li><strong>Standard leczenia:</strong> lekarz ma działać zgodnie z aktualną wiedzą, dostępnymi metodami i należytą starannością. Czy standard naruszono, zależy od dowodów medycznych. <a href="https://eli.gov.pl/api/acts/DU/2026/37/text/O/D20260037.pdf">Ustawa o zawodach lekarza i lekarza dentysty, art. 8</a>.</li>
+          <li><strong>Roszczenia:</strong> art. 444–445 KC dotyczą szkody na osobie, kosztów leczenia i zadośćuczynienia; art. 822 § 4 KC pozwala kierować roszczenie bezpośrednio do ubezpieczyciela OC. <a href="https://eli.gov.pl/api/acts/DU/2026/795/text.pdf">Kodeks cywilny</a>.</li>
+          <li><strong>Termin ubezpieczyciela:</strong> podstawowy termin wypłaty to 30 dni, ale ustawa przewiduje dalsze terminy oraz wypłatę części bezspornej. <a href="https://eli.gov.pl/api/acts/DU/2026/783/text.pdf">Ustawa o ubezpieczeniach obowiązkowych, art. 14</a>.</li>
+          <li><strong>Przedawnienie:</strong> termin zależy od sprawy — nie zakładaj, że zawsze zaczyna się od pierwszego badania. Art. 819 § 4 KC dotyczy roszczenia wobec ubezpieczyciela.</li>
+        </ul>
+        <p class="small">Linki prowadzą do oficjalnych tekstów ELI. Przy istotnym sporze sprawdź aktualne brzmienie przepisów.</p>
+      </div>
+    </details>
+
+    <section id="druku" class="stage" aria-labelledby="p-title">
+      <div class="stage-head"><div class="num" aria-hidden="true" style="background:var(--ink)">P</div>
+        <div>
+          <p class="eyebrow soft">Wydrukuj lub edytuj</p>
+          <h2 id="p-title">Dokumenty sprawy</h2>
+          <p class="intro">Otwórz wersję HTML na ekranie, albo pobierz PDF do druku i DOCX do wypełnienia na komputerze. Pełne teksty ustaw: <a href="ustawy/README.html">akty prawne</a>.</p>
+        </div>
+      </div>
+      <div class="docs">
+        <div class="doc"><strong>Plan postępowania — checklista i rejestr korespondencji</strong>
+          <a class="fmt" href="PLAN-POSTEPOWANIA.html">HTML</a><a class="fmt" href="dist/PLAN-POSTEPOWANIA.pdf">PDF</a><a class="fmt" href="dist/PLAN-POSTEPOWANIA.docx">DOCX</a>
+          <span class="desc">Lista zadań do odhaczania i tabela wysłanych pism.</span></div>
+        <div class="doc"><strong>Historia pacjentki — chronologia i relacja źródłowa</strong>
+          <a class="fmt" href="notatki-przypadek.html">HTML</a><a class="fmt" href="dist/notatki-przypadek.pdf">PDF</a><a class="fmt" href="dist/notatki-przypadek.docx">DOCX</a>
+          <span class="desc">Uporządkowana relacja z oznaczeniem elementów do potwierdzenia.</span></div>
+        <div class="doc"><strong>Wniosek o dokumentację medyczną i dane polisy OC</strong>
+          <a class="fmt" href="wniosek-dokumentacja-papierowa.html">HTML</a><a class="fmt" href="dist/wniosek-dokumentacja-papierowa.pdf">PDF</a><a class="fmt" href="dist/wniosek-dokumentacja-papierowa.docx">DOCX</a>
+          <span class="desc">Wzór na podstawie art. 26–28 ustawy o prawach pacjenta i art. 14 ust. 2 pkt 2 ustawy o działalności leczniczej.</span></div>
+        <div class="doc"><strong>Robocze zgłoszenie szkody w tej sprawie</strong>
+          <a class="fmt" href="wniosek-odszkodowanie-OC-dentysty-ROBOCZY.html">HTML</a>
+          <span class="desc">Chronologia i neutralne sformułowanie podejrzenia. Nie wysyłać bez uzupełnienia.</span></div>
+        <div class="doc"><strong>Ogólny szablon zgłoszenia szkody</strong>
+          <a class="fmt" href="wniosek-odszkodowanie-OC-dentysty.html">HTML</a><a class="fmt" href="dist/wniosek-odszkodowanie-OC-dentysty.pdf">PDF</a><a class="fmt" href="dist/wniosek-odszkodowanie-OC-dentysty.docx">DOCX</a>
+          <span class="desc">Zanonimizowany wzór z polami do uzupełnienia.</span></div>
+        <div class="doc"><strong>Poradnik prawno-praktyczny</strong>
+          <a class="fmt" href="research-OC-dentysty.html">HTML</a><a class="fmt" href="dist/research-OC-dentysty.pdf">PDF</a><a class="fmt" href="dist/research-OC-dentysty.docx">DOCX</a>
+          <span class="desc">Prawo do dokumentacji, dowody, OC, terminy i ograniczenia oceny odpowiedzialności.</span></div>
+        <div class="doc"><strong>Poradnik sprawy — wersja szczegółowa</strong>
+          <a class="fmt" href="poradnik-sprawy.html">HTML</a>
+          <span class="desc">Rozwinięty przewodnik: sedno sprawy, dowody i wzór sformułowania podejrzenia.</span></div>
+      </div>
+      <a class="totop" href="#tresc">Wróć na górę strony</a>
     </section>
   </main>
-    <footer><div class="shell"><p>Materiały mają charakter informacyjny i organizacyjny. Nie stanowią indywidualnej porady prawnej ani medycznej.</p><p><a href="README.html">Opis materiałów i repozytorium</a></p></div></footer>
+
+  <footer><div class="shell">
+    <p>Materiały mają charakter informacyjny i organizacyjny. Nie stanowią indywidualnej porady prawnej ani medycznej. Fakty historyczne pochodzą z relacji pacjentki i wymagają potwierdzenia dokumentacją.</p>
+    <p><a href="poradnik-sprawy.html">Poradnik szczegółowy</a> · <a href="PLAN-POSTEPOWANIA.html">Checklista</a> · <a href="README.html">Opis repozytorium</a></p>
+  </div></footer>
+
+  <script>
+    const boxes = document.querySelectorAll('.tasks input[type="checkbox"]');
+    const key = 'dentysta-tasks:index';
+    const saved = JSON.parse(localStorage.getItem(key) || '{}');
+    boxes.forEach((box, i) => {
+      const id = String(i + 1);
+      if (Object.hasOwn(saved, id)) box.checked = saved[id];
+      box.dataset.task = id;
+      box.addEventListener('change', () => {
+        saved[id] = box.checked;
+        localStorage.setItem(key, JSON.stringify(saved));
+        updateCounters();
+      });
+    });
+
+    const stageSections = [...document.querySelectorAll('section.stage')].filter(s => s.querySelector('.tasks'));
+    const counters = stageSections.map(s => s.querySelector('.count'));
+    const globalChip = document.getElementById('progress-all');
+    function updateCounters() {
+      let doneAll = 0, totalAll = 0;
+      stageSections.forEach((s, i) => {
+        const inputs = s.querySelectorAll('.tasks input[type="checkbox"]');
+        const done = [...inputs].filter(b => b.checked).length;
+        doneAll += done; totalAll += inputs.length;
+        if (counters[i]) counters[i].textContent = done + ' z ' + inputs.length;
+      });
+      if (globalChip) {
+        const strongs = globalChip.querySelectorAll('strong');
+        strongs[0].textContent = doneAll;
+        strongs[1].textContent = totalAll;
+      }
+    }
+    updateCounters();
+
+    const panels = document.querySelectorAll('details.panel');
+    const openBeforePrint = [];
+    window.addEventListener('beforeprint', () => {
+      openBeforePrint.length = 0;
+      panels.forEach(d => { openBeforePrint.push(d.open); d.open = true; });
+    });
+    window.addEventListener('afterprint', () => {
+      panels.forEach((d, i) => { d.open = openBeforePrint[i]; });
+    });
+
+    const links = [...document.querySelectorAll('.nav a[href^="#"]')];
+    const sections = links.map(a => document.querySelector(a.getAttribute('href'))).filter(Boolean);
+    if ('IntersectionObserver' in window && sections.length) {
+      const spy = new IntersectionObserver(entries => {
+        entries.forEach(e => {
+          if (e.isIntersecting) {
+            links.forEach(a => a.removeAttribute('aria-current'));
+            const active = links.find(a => a.getAttribute('href') === '#' + e.target.id);
+            if (active) active.setAttribute('aria-current', 'true');
+          }
+        });
+      }, { rootMargin: '-30% 0px -60% 0px' });
+      sections.forEach(s => spy.observe(s));
+    }
+  </script>
 </body>
 </html>

@@ -8,7 +8,7 @@ Ogólne szablony są zanonimizowane i zawierają wykropkowane pola (`...........
 
 ---
 
-## 📂 Zawartość repozytorium
+## Zawartość repozytorium
 
 ### Zacznij tutaj
 
@@ -23,13 +23,13 @@ Ogólne szablony są zanonimizowane i zawierają wykropkowane pola (`...........
 | **Robocze zgłoszenie tej sprawy** | [`wniosek-odszkodowanie-OC-dentysty-ROBOCZY.md`](wniosek-odszkodowanie-OC-dentysty-ROBOCZY.md) | — | — | Chronologia i neutralne sformułowanie podejrzenia. Nie wysyłać bez uzupełnienia dokumentacji i danych. |
 | **Poradnik prawny** | [`research-OC-dentysty.md`](research-OC-dentysty.md) | [Pobierz PDF](dist/research-OC-dentysty.pdf) | [Pobierz DOCX](dist/research-OC-dentysty.docx) | Prawo do dokumentacji, dowody, OC, terminy i ograniczenia w ocenie odpowiedzialności. |
 
-### 📚 Akty prawne (pełne teksty jednolite)
+### Akty prawne (pełne teksty jednolite)
 
 Katalog [`ustawy/`](ustawy/) zawiera pełne teksty jednolite 5 ustaw cytowanych we wnioskach (PDF + TXT do wyszukiwania). Pobrane z oficjalnego API Sejmu (`api.sejm.gov.pl`). Lista z cytowaniami artykułów: [`ustawy/README.md`](ustawy/README.md).
 
 ---
 
-## ⚡ Jak używać?
+## Jak używać?
 
 1. **Pobierz plik DOCX** jeśli chcesz wypełnić pismo na komputerze (w programie Microsoft Word, LibreOffice Writer lub Dokumenty Google).
 2. **Pobierz plik PDF** jeśli wolisz wydrukować czysty formularz i uzupełnić go odręcznie lub dołączyć jako wzór do korespondencji.
@@ -37,7 +37,7 @@ Katalog [`ustawy/`](ustawy/) zawiera pełne teksty jednolite 5 ustaw cytowanych 
 
 ---
 
-## 🤖 Automatyczna konwersja (CI/CD)
+## Automatyczna konwersja (CI/CD)
 
 Repozytorium posiada skonfigurowany proces **GitHub Actions** (`.github/workflows/build-docs.yml`), który przy każdym commicie lub zmianie w plikach `.md`:
 1. Automatycznie parsuje pliki Markdown.
@@ -52,5 +52,5 @@ Pliki wyjściowe znajdą się w folderze `dist/`.
 
 ---
 
-## ⚖️ Zastrzeżenie prawne
+## Zastrzeżenie prawne
 Materiały mają charakter informacyjny i organizacyjny. Nie stanowią indywidualnej porady prawnej ani medycznej. Fakty w historii pochodzą z relacji pacjentki; istotne elementy wymagają potwierdzenia dokumentacją.
