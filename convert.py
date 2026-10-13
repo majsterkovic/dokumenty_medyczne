@@ -6,6 +6,8 @@ import tempfile
 import markdown
 
 SOURCE_FILES = [
+    ("PLAN-POSTEPOWANIA.md", "Plan postępowania — lista zadań i rejestr korespondencji"),
+    ("notatki-przypadek.md", "Historia sprawy — relacja pacjentki i chronologia"),
     ("wniosek-dokumentacja-papierowa.md", "Wniosek o dokumentację medyczną i polisę OC"),
     ("wniosek-odszkodowanie-OC-dentysty.md", "Zgłoszenie szkody i wezwanie do zapłaty OC"),
     ("research-OC-dentysty.md", "Podejrzenie błędu diagnostycznego — poradnik prawny i procedura OC")

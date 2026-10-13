@@ -37,11 +37,7 @@ jobs:
           python3 convert.py
 
       - name: Prepare site directory for Pages
-        run: |
-          mkdir -p _site/dist
-          cp index.html _site/
-          cp -r dist/* _site/dist/
-          cp *.md _site/
+        run: python3 build_site.py
 
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
