@@ -1,4 +1,4 @@
-# ZGŁOSZENIE SZKODY Z OBOWIĄZKOWEGO UBEZPIECZENIA OC ORAZ WEZWANIE DO ZAPŁATY ODSZKODOWANIA I ZADOŚĆUCZYNIENIA
+# ZGŁOSZENIE SZKODY I ROSZCZEŃ O ODSZKODOWANIE ORAZ ZADOŚĆUCZYNIENIE
 
 ........................................, dnia ........................ r.  
 *(miejscowość, data)*
@@ -16,17 +16,17 @@ Numer rachunku bankowego do wypłaty świadczeń:
 
 ---
 
-### Adresat (proszę wybrać jeden wariant i drugi skreślić):
-**Wariant A (zalecany)** — Zakład Ubezpieczeń / Towarzystwo Ubezpieczeń (Departament Likwidacji Szkód), w którym sprawca posiadał polisę OC — podstawa: art. 822 § 4 KC (*actio directa*).  
-**Wariant B** — Podmiot leczniczy / lekarz dentysta (sprawca szkody) — gdy dane ubezpieczyciela nie są jeszcze znane albo roszczenie kierowane jest równolegle do sprawcy.
+### Adresat (wybierz właściwy wariant i skreśl pozostały):
+**Wariant A — ubezpieczyciel OC:** Zakład ubezpieczeń, w którym podmiot/lekarz był ubezpieczony w dacie świadczenia. W tym wariancie poszkodowany może dochodzić roszczenia bezpośrednio od ubezpieczyciela na podstawie art. 822 § 4 KC (*actio directa*).
+**Wariant B — podmiot leczniczy lub lekarz:** podmiot, którego odpowiedzialność cywilna ma zostać ustalona. W tym wariancie pismo jest zgłoszeniem roszczenia temu podmiotowi, a art. 822 § 4 KC nie jest podstawą roszczenia bezpośrednio wobec adresata.
 ........................................................................................  
 *(Nazwa Zakładu Ubezpieczeń S.A. / Towarzystwa Ubezpieczeń lub Podmiotu Leczniczego)*  
 ........................................................................................  
 *(Adres centrali / Departamentu Likwidacji Szkód lub adres podmiotu leczniczego)*  
 
-**Dotyczy:** Zgłoszenia szkody z obowiązkowego ubezpieczenia OC podmiotu wykonującego działalność leczniczą / lekarza dentysty.
+**Dotyczy:** zgłoszenia szkody na osobie i roszczeń związanych ze świadczeniem zdrowotnym udzielonym w dniu ........................ r.
 
-**Sprawca szkody (Ubezpieczony):**  
+**Podmiot/lekarz, którego dotyczy zgłoszenie:**
 Nazwa podmiotu leczniczego / Lekarz: ...................................................  
 Adres placówki: ........................................................................  
 Seria i numer polisy OC: ...............................................................  
@@ -34,56 +34,51 @@ Numer szkody (jeśli został już nadany): .....................................
 
 ---
 
-## ZGŁOSZENIE SZKODY I WEZWANIE DO ZAPŁATY
+## ZGŁOSZENIE SZKODY I ROSZCZEŃ
 
-Działając we własnym imieniu, na podstawie art. 822 § 4 Kodeksu cywilnego (*actio directa* — bezpośrednie roszczenie przeciwko ubezpieczycielowi sprawcy) oraz przepisów ustawy z dnia 22 maja 2003 r. o ubezpieczeniach obowiązkowych, Ubezpieczeniowym Funduszu Gwarancyjnym i Polskim Biurze Ubezpieczycieli Komunikacyjnych:
+Działając we własnym imieniu, zgłaszam szkodę i przedstawiam roszczenia opisane poniżej. Jeżeli adresatem jest ubezpieczyciel, podstawą roszczenia bezpośredniego jest art. 822 § 4 Kodeksu cywilnego oraz — w zakresie obowiązkowego OC — ustawa z dnia 22 maja 2003 r. o ubezpieczeniach obowiązkowych, UFG i PBUK. Jeżeli adresatem jest podmiot leczniczy lub lekarz, podstawą żądania jest przypisywana temu adresatowi odpowiedzialność cywilna, wymagająca ustalenia w okolicznościach sprawy.
 
-1. **ZGŁASZAM SZKODĘ NA OSOBIE ORAZ SZKODĘ MAJĄTKOWĄ** doznaną w wyniku błędu diagnostyczno-terapeutycznego (zaniechania prawidłowej diagnozy i leczenia na podstawie badania obrazowego — tomografii stożkowej CBCT *(Cone Beam Computed Tomography, trójwymiarowe badanie 3D)*), popełnionego w trakcie udzielania świadczeń zdrowotnych przez ubezpieczonego;
-2. **WZYWAM DO ZAPŁATY** w terminie 30 dni od dnia otrzymania niniejszego zgłoszenia (art. 14 ust. 1 ustawy o ubezpieczeniach obowiązkowych) następujących kwot na wyżej wskazany rachunek bankowy:
+1. **ZGŁASZAM SZKODĘ NA OSOBIE ORAZ SZKODĘ MAJĄTKOWĄ** i wnoszę o zbadanie, czy podczas udzielania świadczenia opisanego poniżej doszło do działania lub zaniechania niezgodnego z wymaganą starannością, czy spowodowało ono szkodę oraz jaki jest związek między tym zdarzeniem a zgłoszonymi następstwami. W przypadku gdy odpowiedzialność i wysokość roszczenia są już poparte dowodami, można opisać ustalenia wprost, wskazując te dowody;
+2. **WNOSZĘ O WYPŁATĘ** następujących kwot na wskazany rachunek, w terminach wynikających z właściwych przepisów:
    - **a) kwoty ........................ zł** *(słownie: ........................................)* tytułem **odszkodowania — wyłożenia z góry sumy potrzebnej na koszty leczenia naprawczego** (art. 444 § 1 zd. 2 Kodeksu cywilnego) zgodnie z załączonym planem leczenia i kosztorysem z dnia ........................ r., z jednoczesnym zastrzeżeniem prawa do żądania zwrotu dalszych kosztów leczenia powikłań;
    - **b) kwoty ........................ zł** *(słownie: ........................................)* tytułem **zadośćuczynienia pieniężnego za doznaną krzywdę, ból i cierpienie fizyczne oraz psychiczne** (art. 445 § 1 w zw. z art. 444 § 1 Kodeksu cywilnego);
    - **c) kwoty ........................ zł** *(słownie: ........................................)* tytułem **odszkodowania za poniesione dotychczas koszty leczenia, badań diagnostycznych, leków i dojazdów** (art. 444 § 1 zd. 1 Kodeksu cywilnego) — zgodnie z załączonymi rachunkami i fakturami.
 
-*Niniejsze zgłoszenie roszczenia (zdarzenia) przerywa bieg przedawnienia roszczenia o świadczenie do ubezpieczyciela (art. 819 § 4 KC). Bieg przedawnienia rozpoczyna się na nowo od dnia, w którym otrzymam pisemne oświadczenie ubezpieczyciela o przyznaniu lub odmowie świadczenia.*
+*Jeżeli pismo jest kierowane do ubezpieczyciela, art. 819 § 4 KC przewiduje przerwanie biegu przedawnienia roszczenia o świadczenie do ubezpieczyciela przez zgłoszenie roszczenia lub zdarzenia objętego ubezpieczeniem; bieg rozpoczyna się na nowo po otrzymaniu pisemnego oświadczenia ubezpieczyciela o przyznaniu lub odmowie świadczenia. Nie należy zakładać, że zgłoszenie ubezpieczycielowi przerywa przedawnienie roszczeń wobec innych podmiotów.*
 
 ---
 
 ## I. STAN FAKTYCZNY I CHRONOLOGIA ZDARZEŃ
 
 0. **Historia wcześniejszego leczenia (wypełnić w wariancie nawrotu / kontroli po zabiegu; w wariancie pierwotnego przeoczenia pominąć):**
-   Wcześniej w placówce ubezpieczonego wykonano: ........................................................................ *(np. resekcja wierzchołków korzeni zębów nr ......... + wyłuszczenie torbieli w dniu ........................ r.)*. Kontrole po zabiegu (m.in. CBCT z dnia ........................ r.) wykazywały obraz prawidłowy / prawidłowe gojenie, bez wskazań do leczenia.
+   Wcześniej w placówce wykonano: ........................................................................ *(np. resekcja wierzchołków korzeni zębów nr ......... i wyłuszczenie torbieli w dniu ........................ r.)*. Według posiadanych dokumentów / informacji przekazanej pacjentowi, kontrola z dnia ........................ r. wykazała: ........................................................................ . Dołączyć opis lub wskazać, jeśli relacjonowana informacja była ustna.
 
 1. **Wizyta sporna — data zarzutu (dzień ........................ r.):**
-   Poszkodowany/a odbył/a wizytę stomatologiczną w placówce ubezpieczonego. W trakcie wizyty wykonano badanie obrazowe — tomografię stożkową CBCT: ........................................................................ *(obszar ......... / ząb nr .........)*. Lekarz badający oświadczył, że badanie nie wykazuje zmian chorobowych i brak jest wskazań do podjęcia leczenia stomatologicznego. Nie wdrożono leczenia ani dalszej diagnostyki. Zalecenie: kontrola za ........................ .
-   *W wariancie nawrotu jest to kontrola po wcześniejszym skutecznym leczeniu (pkt 0), a zarzut dotyczy przeoczenia nawrotu, nie pierwotnego rozpoznania.*
+   Odbyłem/am wizytę w placówce ........................................ . Wykonano / oceniano badanie CBCT okolicy ........................................ . Przekazano mi: ........................................ *(wskazać, czy ustnie czy na piśmie i kto przekazał informację)*. Zalecono: ........................................ . Według mojej wiedzy nie zalecono wówczas: ........................................ . Wpis, opis i pliki badania: ........................................ *(załączam / oczekuję na wydanie / nie posiadam)*.
+   *W wariancie nawrotu opisz wcześniejsze leczenie i kontrolę jako tło. Nie stwierdzaj, że nawrót był widoczny w badaniu spornym, dopóki nie potwierdzi tego porównanie badań lub inny wiarygodny dowód.*
 
 2. **Wystąpienie powikłań (okres ........................................ r.):**
-   W kolejnych tygodniach nastąpił dynamiczny rozwój nierozpoznanego stanu zapalnego. U Poszkodowanego/ej wystąpiły ostre objawy chorobowe: narastający ból o dużym natężeniu, rozległy obrzęk tkanek miękkich twarzy po stronie ........................, zaburzenia snu, trudności w przyjmowaniu pokarmów oraz ogólne rozbicie. Objawy te udokumentowano fotograficznie oraz potwierdzono w wywiadzie lekarskim.
-   *Jeżeli między sporną kontrolą a weryfikacją wystąpiła przerwa w zgłaszaniu się na kontrole (np. objawy w miesiącu ........................, brak wizyty), opisać ją zgodnie z prawdą w jednym zdaniu — ubezpieczyciel bada przyczynienie (art. 362 KC). Nie pomijać tego faktu; osią roszczenia pozostaje sporna kontrola z pkt 1.*
+   W okresie ........................................ wystąpiły następujące objawy: ........................................ . Odnotowano je w dokumentacji / zdjęciach / innych dowodach: ........................................ . Wymienić tylko objawy rzeczywiście występujące i wskazać ich źródło.
+   *Opisać zgodnie z prawdą ewentualne wcześniejsze objawy i przerwy w konsultacji. Ich prawne znaczenie zależy od związku z powstaniem lub zwiększeniem szkody; samo ich wystąpienie nie przesądza automatycznie o przyczynieniu.*
 
-3. **Wizyta weryfikacyjna i ujawnienie błędu (dzień ........................ r.):**
-   Z uwagi na ostry stan zapalny Poszkodowany/a zgłosił/a się na pilną konsultację stomatologiczną do innego lekarza dentysty: ........
-   Lekarz ten, po badaniu fizykalnym (naocznym zbadaniu stanu klinicznego), wykonaniu własnej tomografii CBCT oraz wnikliwej analizie spornego badania CBCT z dnia ........................ r., jednoznacznie stwierdził, że:
-    - Zmiany chorobowe w postaci: ........................................................................ były **wyraźnie widoczne już w spornym badaniu CBCT**;
-   - Prawidłowa ocena radiologiczna nakazywała natychmiastowe wdrożenie leczenia już w dacie spornego badania;
-   - Zaniechanie leczenia doprowadziło bezpośrednio do rozwoju ostrego stanu zapalnego, obrzęku / ropnia i konieczności wdrożenia skomplikowanego, inwazyjnego leczenia naprawczego: ........................................................................;
-   - Koszt niezbędnego leczenia naprawczego został oszacowany w załączonym planie leczenia na kwotę: ........................ zł.
-   *Dowód kluczowy w wariancie nawrotu: pisemna opinia lekarza weryfikującego porównująca DICOM CBCT ze spornej kontroli z własnym CBCT (dwa badania, daty, opis różnic).*
+3. **Kolejna wizyta i rozpoznanie zmiany (dzień ........................ r.):**
+   Dnia ........................ r. zgłosiłem/am się do ........................................ . W badaniu stwierdzono / przekazano mi: ........................................ . Wykonano: ........................................ . W dokumentacji wpisano: ........................................ .
+   Jeżeli uzyskano porównawczą ocenę wcześniejszego CBCT, streścić jej wnioski i dołączyć dokument: ........................................ . Jeżeli takiej oceny nie ma, napisać to wprost i nie przypisywać lekarzowi wniosków, których nie wydał.
+   Następstwa, których dotyczy roszczenie: ........................................ . Związek tych następstw z opóźnionym rozpoznaniem uzasadniam następującymi dowodami: ........................................ .
+   Plan i koszt leczenia: ........................................ . Kwota obejmuje: ........................................ .
 
 ---
 
 ## II. PODSTAWA PRAWNA ODPOWIEDZIALNOŚCI
 
-1. **Art. 415 Kodeksu cywilnego (wina sprawcy):**  
-   Zaniechanie właściwej analizy badania CBCT i przeoczenie widocznych zmian chorobowych stanowi naruszenie zasad aktualnej wiedzy medycznej oraz niedochowanie należytej staranności zawodowej wymaganej od lekarza dentysty (art. 355 § 2 KC w zw. z art. 8 ustawy o zawodach lekarza i lekarza dentysty).
-2. **Art. 430 Kodeksu cywilnego (odpowiedzialność zwierzchnika):**  
-   W przypadku podmiotu leczniczego placówka odpowiada za szkodę wyrządzoną z winy personelu medycznego wykonującego czynności powierzone w ramach jej działalności.
+1. **Art. 415 Kodeksu cywilnego:** może stanowić podstawę odpowiedzialności osoby, której zawinione działanie lub zaniechanie spowodowało szkodę. W ocenie postępowania lekarza znaczenie ma art. 8 ustawy o zawodach lekarza i lekarza dentysty oraz wymaganie należytej staranności. Czy w konkretnym przypadku doszło do naruszenia standardu, wymaga oceny dowodów i okoliczności medycznych.
+2. **Art. 430 Kodeksu cywilnego:** może mieć zastosowanie do podmiotu, który powierzył czynności osobie podlegającej jego kierownictwu i obowiązanej stosować się do wskazówek. Nie zakładać automatycznie odpowiedzialności placówki wyłącznie dlatego, że świadczenia udzielono w jej gabinecie; ustalić formę praktyki i relację z lekarzem.
 3. **Art. 444 § 1 i art. 445 § 1 Kodeksu cywilnego:**  
    Naprawienie szkody na osobie obejmuje wszelkie wynikłe z tego koszty. Na żądanie poszkodowanego podmiot zobowiązany jest wyłożyć z góry sumę potrzebną na koszty leczenia. Nadto poszkodowanemu przysługuje zadośćuczynienie pieniężne za krzywdę niemajątkową (ból, zniekształcenie twarzy, cierpienie, stres, utrudnienia w życiu codziennym).
 4. **Art. 822 § 1 i § 4 Kodeksu cywilnego:**  
    Ubezpieczyciel przez umowę ubezpieczenia OC przejmuje odpowiedzialność finansową za szkody wyrządzone osobom trzecim, a poszkodowany uprawniony jest do dochodzenia roszczenia bezpośrednio od ubezpieczyciela.
 5. **Art. 14 ustawy o ubezpieczeniach obowiązkowych:**  
-   Termin na likwidację szkody i wypłatę należnych świadczeń wynosi 30 dni od dnia doręczenia zawiadomienia.
+   Podstawowy termin wypłaty wynosi 30 dni od zawiadomienia o szkodzie. Jeżeli wyjaśnienie odpowiedzialności lub wysokości świadczenia nie jest w tym czasie możliwe, ustawa przewiduje dalszy termin liczony od chwili, gdy wyjaśnienie stało się możliwe, co do zasady nie później niż 90 dni od zgłoszenia, z ustawowymi wyjątkami. W terminie podstawowym należy wypłacić część bezsporną. Nie oznacza to gwarancji wypłaty całej żądanej kwoty w 30 dni.
 
 ---
 
@@ -91,7 +86,7 @@ Działając we własnym imieniu, na podstawie art. 822 § 4 Kodeksu cywilnego (*
 
 1. Kopia dokumentacji medycznej z placówki ubezpieczonego (karty wizyt, historia leczenia);
 2. Płyta CD / pendrive / nośnik z cyfrowym zapisem badania CBCT z dnia ........................ r. (format DICOM) wraz z opisem radiologicznym;
-3. Zaświadczenie lekarskie / pisemna opinia lekarza weryfikującego błąd z dnia ........................ r.;
+3. Pisemna ocena lekarza dotycząca badania lub porównania CBCT z dnia ........................ r. — jeżeli została uzyskana;
 4. Plan leczenia naprawczego wraz ze szczegółowym kosztorysem procedur z dnia ........................ r.;
 5. Dokumentacja fotograficzna obrzęku twarzy i widocznych powikłań (z oznaczeniem dat);
 6. Kopie imiennych faktur i rachunków potwierdzających dotychczas poniesione koszty leczenia, badań, leków i dojazdów;
@@ -99,7 +94,7 @@ Działając we własnym imieniu, na podstawie art. 822 § 4 Kodeksu cywilnego (*
 8. Zaświadczenia o czasowej niezdolności do pracy (zaświadczenie lekarskie ZUS ZLA, tzw. L4) wynikające z powikłań (opcjonalnie);
 9. Kopia uprzednio złożonego wniosku o udostępnienie dokumentacji i wskazanie polisy OC wraz z potwierdzeniem odbioru.
 
-*Uwaga: W przypadku trudności z samodzielnym oszacowaniem roszczeń lub w razie sporu co do winy ubezpieczonego, poszkodowany może skorzystać z bezpłatnej pomocy Miejskiego/Powiatowego Rzecznika Konsumentów, Rzecznika Praw Pacjenta lub profesjonalnego pełnomocnika (adwokata / radcy prawnego).*
+*Dołączaj tylko dokumenty, które istnieją i dotyczą tej sprawy; usuń pozycje, których nie możesz potwierdzić. W razie trudności z oceną roszczenia lub sporu co do odpowiedzialności można skorzystać z pomocy właściwego rzecznika lub profesjonalnego pełnomocnika (adwokata / radcy prawnego).*
 
 ---
 

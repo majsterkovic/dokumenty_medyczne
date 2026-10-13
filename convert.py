@@ -8,7 +8,7 @@ import markdown
 SOURCE_FILES = [
     ("wniosek-dokumentacja-papierowa.md", "Wniosek o dokumentację medyczną i polisę OC"),
     ("wniosek-odszkodowanie-OC-dentysty.md", "Zgłoszenie szkody i wezwanie do zapłaty OC"),
-    ("research-OC-dentysty.md", "Poradnik błąd diagnostyczny RTG i procedura OC")
+    ("research-OC-dentysty.md", "Podejrzenie błędu diagnostycznego — poradnik prawny i procedura OC")
 ]
 
 CSS = """

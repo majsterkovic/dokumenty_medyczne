@@ -47,11 +47,13 @@ Na podstawie przepisów ustawy o prawach pacjenta wnoszę o realizację niniejsz
 
 ### WNIOSEK O WSKAZANIE DANYCH UBEZPIECZYCIELA OC
 
-Jednocześnie, na podstawie **art. 14 ust. 2 pkt 2 ustawy z dnia 15 kwietnia 2011 r. o działalności leczniczej** (Dz.U. z 2023 r. poz. 991 ze zm.), wnoszę o podanie bez zbędnej zwłoki, nie później niż w terminie 7 dni od dnia otrzymania niniejszego wniosku *(ustawa nie wyznacza terminu ustawowego — termin 7-dniowy wyznaczam jako rozsądny)*:
+Jednocześnie, na podstawie **art. 14 ust. 2 pkt 2 ustawy z dnia 15 kwietnia 2011 r. o działalności leczniczej** (t.j. Dz.U. z 2026 r. poz. 156), wnoszę o podanie informacji o umowie ubezpieczenia OC obejmującej okres udzielania mi świadczeń, w szczególności:
 
-1. Dokładnej nazwy i adresu zakładu ubezpieczeń, w którym podmiot leczniczy / lekarz prowadzący posiadał zawartą umowę obowiązkowego ubezpieczenia odpowiedzialności cywilnej (OC) w dacie ........................ r. (okres udzielania świadczeń);
-2. Serii i numeru polisy ubezpieczeniowej OC;
-3. Sumy gwarancyjnej polisy.
+1. Nazwy zakładu ubezpieczeń;
+2. Numeru polisy oraz okresu ubezpieczenia;
+3. Sumy gwarancyjnej i — jeśli dotyczy — danych podmiotu lub praktyki objętej ochroną.
+
+Proszę o odpowiedź bez zbędnej zwłoki. Jeżeli wyznaczam termin 7 dni od otrzymania wniosku, jest to termin proponowany przeze mnie, a nie termin określony w ustawie.
 
 Dane te są niezbędne do realizacji uprawnień poszkodowanego wynikających z art. 822 § 4 Kodeksu cywilnego (*actio directa*).
 
@@ -66,7 +68,9 @@ Z poważaniem,
 
 ---
 
-*Wskazówki:*  
-*1. Pismo należy złożyć w 2 egzemplarzach w rejestracji podmiotu (jeden egzemplarz z pieczątką i datą wpływu zachować dla siebie) lub nadać listem poleconym ze zwrotnym potwierdzeniem odbioru (ZPO).*  
-*2. Pierwsza kopia dokumentacji medycznej jest w pełni bezpłatna.*  
-*3. W sprawach o nawrót / kontrolę po zabiegu złóż DWA osobne wnioski: (a) do gabinetu spornego (sprawcy) — pełna historia + sporne CBCT/DICOM + dane polisy OC; (b) do gabinetu weryfikującego — opis ropnia/nacięcia, recepta, własne CBCT/DICOM, plan i kosztorys leczenia naprawczego oraz pisemne porównanie spornego CBCT z własnym CBCT. Wniosek (b) składasz bez żądania polisy OC.*
+*Wskazówki:*
+
+1. Pismo można złożyć osobiście z potwierdzeniem wpływu na kopii albo wysłać w sposób pozwalający zachować dowód doręczenia.
+2. Pierwsze udostępnienie dokumentacji w żądanym zakresie i w formach wskazanych w art. 28 ust. 2a ustawy o prawach pacjenta jest bezpłatne. Dokumentację udostępnia się bez zbędnej zwłoki; ustawa nie ustanawia ogólnego terminu 14 dni roboczych.
+3. W tej sprawie złóż osobny wniosek do Gabinetu nr 1 o dokumentację z leczenia i kontroli, zwłaszcza wpis i CBCT z 04.08.2026, oraz osobny wniosek do Gabinetu nr 2 o dokumentację z 25.09.2026, CBCT, receptę, opis wykonanej procedury, plan leczenia i kosztorys.
+4. Wniosek o dokumentację dotyczy materiałów już prowadzonych lub posiadanych przez gabinet. Prośbę o nową opinię porównującą badania złóż osobno; może być odrębną konsultacją, także odpłatną.
